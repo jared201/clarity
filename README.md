@@ -1,8 +1,8 @@
-# Salesforce DX Project: Next Steps
+# Welcome to Clarity
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Clarity is a reference implementation of the PMHC MDS V4 or Primary Mental Health Care Minimum Data Set of the Australian Government Department of Health.
 
-## How Do You Plan to Deploy Your Changes?
+## Objectives
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
