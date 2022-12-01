@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Flexible Funding Pool</fullName>
+                <default>false</default>
+                <label>1:	Flexible Funding Pool</label>
+            </value>
+            <value>
+                <fullName>2:	Head to Health</fullName>
+                <default>false</default>
+                <label>2:	Head to Health</label>
+            </value>
+            <value>
+                <fullName>3:	AMHC</fullName>
+                <default>false</default>
+                <label>3:	AMHC</label>
+            </value>
+            <value>
+                <fullName>4:	Psychosocial</fullName>
+                <default>false</default>
+                <label>4:	Psychosocial</label>
+            </value>
+            <value>
+                <fullName>5:	Bushfire Recovery 2020</fullName>
+                <default>false</default>
+                <label>5:	Bushfire Recovery 2020</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

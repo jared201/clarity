@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Participants__c</fullName>
+    <externalId>false</externalId>
+    <label>Participants</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Individual client</fullName>
+                <default>false</default>
+                <label>1:	Individual client</label>
+            </value>
+            <value>
+                <fullName>2:	Client group</fullName>
+                <default>false</default>
+                <label>2:	Client group</label>
+            </value>
+            <value>
+                <fullName>3:	Family / Client Support Network</fullName>
+                <default>false</default>
+                <label>3:	Family / Client Support Network</label>
+            </value>
+            <value>
+                <fullName>4:	Other health professional or service provider</fullName>
+                <default>false</default>
+                <label>4:	Other health professional or service provider</label>
+            </value>
+            <value>
+                <fullName>5:	Other</fullName>
+                <default>false</default>
+                <label>5:	Other</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated</fullName>
+                <default>false</default>
+                <label>9:	Not stated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marital_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Marital Status</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Never married</fullName>
+                <default>false</default>
+                <label>1:	Never married</label>
+            </value>
+            <value>
+                <fullName>2:	Widowed</fullName>
+                <default>false</default>
+                <label>2:	Widowed</label>
+            </value>
+            <value>
+                <fullName>3:	Divorced</fullName>
+                <default>false</default>
+                <label>3:	Divorced</label>
+            </value>
+            <value>
+                <fullName>4:	Separated</fullName>
+                <default>false</default>
+                <label>4:	Separated</label>
+            </value>
+            <value>
+                <fullName>5:	Married (registered and de facto)</fullName>
+                <default>false</default>
+                <label>5:	Married (registered and de facto)</label>
+            </value>
+            <value>
+                <fullName>6:	Not stated/inadequately described</fullName>
+                <default>false</default>
+                <label>6:	Not stated/inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

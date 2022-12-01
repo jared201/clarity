@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prof_english__c</fullName>
+    <externalId>false</externalId>
+    <label>Proficiency in Spoken English</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	Not applicable (persons under 5 years of age or who speak only English)</fullName>
+                <default>false</default>
+                <label>0:	Not applicable (persons under 5 years of age or who speak only English)</label>
+            </value>
+            <value>
+                <fullName>1:	Very well</fullName>
+                <default>false</default>
+                <label>1:	Very well</label>
+            </value>
+            <value>
+                <fullName>2:	Well</fullName>
+                <default>false</default>
+                <label>2:	Well</label>
+            </value>
+            <value>
+                <fullName>3:	Not well</fullName>
+                <default>false</default>
+                <label>3:	Not well</label>
+            </value>
+            <value>
+                <fullName>4:	Not at all</fullName>
+                <default>false</default>
+                <label>4:	Not at all</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated/inadequately described</fullName>
+                <default>false</default>
+                <label>9:	Not stated/inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

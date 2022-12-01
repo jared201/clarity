@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Labour_Force_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Labour Force Status</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Employed</fullName>
+                <default>false</default>
+                <label>1:	Employed</label>
+            </value>
+            <value>
+                <fullName>2:	Unemployed</fullName>
+                <default>false</default>
+                <label>2:	Unemployed</label>
+            </value>
+            <value>
+                <fullName>3:	Not in the Labour Force</fullName>
+                <default>false</default>
+                <label>3:	Not in the Labour Force</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated/inadequately described</fullName>
+                <default>false</default>
+                <label>9:	Not stated/inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

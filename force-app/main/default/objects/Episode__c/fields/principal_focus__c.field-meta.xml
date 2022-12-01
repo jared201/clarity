@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>principal_focus__c</fullName>
+    <externalId>false</externalId>
+    <label>Principal Focus of Treatment Plan</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Psychological therapy</fullName>
+                <default>false</default>
+                <label>1:	Psychological therapy</label>
+            </value>
+            <value>
+                <fullName>2:	Low intensity psychological intervention</fullName>
+                <default>false</default>
+                <label>2:	Low intensity psychological intervention</label>
+            </value>
+            <value>
+                <fullName>3:	Clinical care coordination</fullName>
+                <default>false</default>
+                <label>3:	Clinical care coordination</label>
+            </value>
+            <value>
+                <fullName>4:	Complex care package</fullName>
+                <default>false</default>
+                <label>4:	Complex care package</label>
+            </value>
+            <value>
+                <fullName>5:	Child and youth-specific mental health services</fullName>
+                <default>false</default>
+                <label>5:	Child and youth-specific mental health services</label>
+            </value>
+            <value>
+                <fullName>6:	Indigenous-specific mental health services</fullName>
+                <default>false</default>
+                <label>6:	Indigenous-specific mental health services</label>
+            </value>
+            <value>
+                <fullName>7:	Other</fullName>
+                <default>false</default>
+                <label>7:	Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

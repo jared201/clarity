@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Practitioner_Key__c</fullName>
+    <description>A unique identifier for a practitioner within the responsible provider organisation. Assigned by either the PHN or Provider Organisation depending on local procedures.</description>
+    <externalId>false</externalId>
+    <label>Practitioner Key</label>
+    <length>50</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
