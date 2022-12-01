@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>client_atsi_status__c</fullName>
+    <externalId>false</externalId>
+    <label>Aboriginal and Torres Strait Islander St</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Aboriginal but not Torres Strait Islander origin</fullName>
+                <default>false</default>
+                <label>1:	Aboriginal but not Torres Strait Islander origin</label>
+            </value>
+            <value>
+                <fullName>2:	Torres Strait Islander but not Aboriginal origin</fullName>
+                <default>false</default>
+                <label>2:	Torres Strait Islander but not Aboriginal origin</label>
+            </value>
+            <value>
+                <fullName>3:	Both Aboriginal and Torres Strait Islander origin</fullName>
+                <default>false</default>
+                <label>3:	Both Aboriginal and Torres Strait Islander origin</label>
+            </value>
+            <value>
+                <fullName>4:	Neither Aboriginal or Torres Strait Islander origin</fullName>
+                <default>false</default>
+                <label>4:	Neither Aboriginal or Torres Strait Islander origin</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated/inadequately described</fullName>
+                <default>false</default>
+                <label>9:	Not stated/inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

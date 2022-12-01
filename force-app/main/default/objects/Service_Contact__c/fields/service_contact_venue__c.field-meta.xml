@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>service_contact_venue__c</fullName>
+    <externalId>false</externalId>
+    <label>Venue</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Client’s Home</fullName>
+                <default>false</default>
+                <label>1:	Client’s Home</label>
+            </value>
+            <value>
+                <fullName>2:	Service provider’s office</fullName>
+                <default>false</default>
+                <label>2:	Service provider’s office</label>
+            </value>
+            <value>
+                <fullName>3:	GP Practice</fullName>
+                <default>false</default>
+                <label>3:	GP Practice</label>
+            </value>
+            <value>
+                <fullName>4:	Other medical practice</fullName>
+                <default>false</default>
+                <label>4:	Other medical practice</label>
+            </value>
+            <value>
+                <fullName>5:	Headspace Centre</fullName>
+                <default>false</default>
+                <label>5:	Headspace Centre</label>
+            </value>
+            <value>
+                <fullName>6:	Other primary care setting</fullName>
+                <default>false</default>
+                <label>6:	Other primary care setting</label>
+            </value>
+            <value>
+                <fullName>7:	Public or private hospital</fullName>
+                <default>false</default>
+                <label>7:	Public or private hospital</label>
+            </value>
+            <value>
+                <fullName>8:	Residential aged care facility</fullName>
+                <default>false</default>
+                <label>8:	Residential aged care facility</label>
+            </value>
+            <value>
+                <fullName>9:	School or other educational centre</fullName>
+                <default>false</default>
+                <label>9:	School or other educational centre</label>
+            </value>
+            <value>
+                <fullName>10:	Client’s Workplace</fullName>
+                <default>false</default>
+                <label>10:	Client’s Workplace</label>
+            </value>
+            <value>
+                <fullName>11:	Other</fullName>
+                <default>false</default>
+                <label>11:	Other</label>
+            </value>
+            <value>
+                <fullName>12:	Aged care centre - non-residential</fullName>
+                <default>false</default>
+                <label>12:	Aged care centre - non-residential</label>
+            </value>
+            <value>
+                <fullName>98:	Not applicable (Service Contact Modality is not face to face)</fullName>
+                <default>false</default>
+                <label>98:	Not applicable (Service Contact Modality is not face to face)</label>
+            </value>
+            <value>
+                <fullName>99:	Not stated</fullName>
+                <default>false</default>
+                <label>99:	Not stated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

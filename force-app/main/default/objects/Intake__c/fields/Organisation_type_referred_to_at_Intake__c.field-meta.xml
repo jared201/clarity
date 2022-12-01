@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organisation_type_referred_to_at_Intake__c</fullName>
+    <externalId>false</externalId>
+    <label>Organisation type referred to at Intake</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	GP/Medical Practitioner</fullName>
+                <default>false</default>
+                <label>1:	GP/Medical Practitioner</label>
+            </value>
+            <value>
+                <fullName>2:	Hospital</fullName>
+                <default>false</default>
+                <label>2:	Hospital</label>
+            </value>
+            <value>
+                <fullName>3:	Psychiatric/mental health service or facility</fullName>
+                <default>false</default>
+                <label>3:	Psychiatric/mental health service or facility</label>
+            </value>
+            <value>
+                <fullName>4:	Alcohol and other drug treatment service</fullName>
+                <default>false</default>
+                <label>4:	Alcohol and other drug treatment service</label>
+            </value>
+            <value>
+                <fullName>5:	Other community/health care service</fullName>
+                <default>false</default>
+                <label>5:	Other community/health care service</label>
+            </value>
+            <value>
+                <fullName>6:	Correctional service</fullName>
+                <default>false</default>
+                <label>6:	Correctional service</label>
+            </value>
+            <value>
+                <fullName>7:	Police diversion</fullName>
+                <default>false</default>
+                <label>7:	Police diversion</label>
+            </value>
+            <value>
+                <fullName>8:	Court diversion</fullName>
+                <default>false</default>
+                <label>8:	Court diversion</label>
+            </value>
+            <value>
+                <fullName>9:	Legal service</fullName>
+                <default>false</default>
+                <label>9:	Legal service</label>
+            </value>
+            <value>
+                <fullName>10:	Child protection agency</fullName>
+                <default>false</default>
+                <label>10:	Child protection agency</label>
+            </value>
+            <value>
+                <fullName>11:	Community support groups/agencies</fullName>
+                <default>false</default>
+                <label>11:	Community support groups/agencies</label>
+            </value>
+            <value>
+                <fullName>12:	Centrelink or employment service</fullName>
+                <default>false</default>
+                <label>12:	Centrelink or employment service</label>
+            </value>
+            <value>
+                <fullName>13:	Housing and homelessness service</fullName>
+                <default>false</default>
+                <label>13:	Housing and homelessness service</label>
+            </value>
+            <value>
+                <fullName>14:	Telephone &amp; online services/referral agency e.g. direct line</fullName>
+                <default>false</default>
+                <label>14:	Telephone &amp; online services/referral agency e.g. direct line</label>
+            </value>
+            <value>
+                <fullName>15:	Disability support service</fullName>
+                <default>false</default>
+                <label>15:	Disability support service</label>
+            </value>
+            <value>
+                <fullName>16:	Aged care facility/service</fullName>
+                <default>false</default>
+                <label>16:	Aged care facility/service</label>
+            </value>
+            <value>
+                <fullName>17:	Immigration department or asylum seeker/refugee support service</fullName>
+                <default>false</default>
+                <label>17:	Immigration department or asylum seeker/refugee support service</label>
+            </value>
+            <value>
+                <fullName>18:	School/other education or training institution</fullName>
+                <default>false</default>
+                <label>18:	School/other education or training institution</label>
+            </value>
+            <value>
+                <fullName>19:	Community based Drug and Alcohol Service</fullName>
+                <default>false</default>
+                <label>19:	Community based Drug and Alcohol Service</label>
+            </value>
+            <value>
+                <fullName>20:	Youth service (non-AOD)</fullName>
+                <default>false</default>
+                <label>20:	Youth service (non-AOD)</label>
+            </value>
+            <value>
+                <fullName>21:	Indigenous service (non-AOD)</fullName>
+                <default>false</default>
+                <label>21:	Indigenous service (non-AOD)</label>
+            </value>
+            <value>
+                <fullName>22:	Extended care/rehabilitation facility</fullName>
+                <default>false</default>
+                <label>22:	Extended care/rehabilitation facility</label>
+            </value>
+            <value>
+                <fullName>23:	Palliative care service</fullName>
+                <default>false</default>
+                <label>23:	Palliative care service</label>
+            </value>
+            <value>
+                <fullName>24:	Police (not diversion)</fullName>
+                <default>false</default>
+                <label>24:	Police (not diversion)</label>
+            </value>
+            <value>
+                <fullName>25:	Public dental provider - community dental agency</fullName>
+                <default>false</default>
+                <label>25:	Public dental provider - community dental agency</label>
+            </value>
+            <value>
+                <fullName>26:	Dental Hospital</fullName>
+                <default>false</default>
+                <label>26:	Dental Hospital</label>
+            </value>
+            <value>
+                <fullName>27:	Private Dental Provider</fullName>
+                <default>false</default>
+                <label>27:	Private Dental Provider</label>
+            </value>
+            <value>
+                <fullName>28:	Early childhood service</fullName>
+                <default>false</default>
+                <label>28:	Early childhood service</label>
+            </value>
+            <value>
+                <fullName>29:	Maternal and Child Health Service</fullName>
+                <default>false</default>
+                <label>29:	Maternal and Child Health Service</label>
+            </value>
+            <value>
+                <fullName>30:	Community nursing service</fullName>
+                <default>false</default>
+                <label>30:	Community nursing service</label>
+            </value>
+            <value>
+                <fullName>31:	Emergency relief</fullName>
+                <default>false</default>
+                <label>31:	Emergency relief</label>
+            </value>
+            <value>
+                <fullName>32:	Family support service (excl family violence)</fullName>
+                <default>false</default>
+                <label>32:	Family support service (excl family violence)</label>
+            </value>
+            <value>
+                <fullName>33:	Family violence service</fullName>
+                <default>false</default>
+                <label>33:	Family violence service</label>
+            </value>
+            <value>
+                <fullName>34:	Gambling support service</fullName>
+                <default>false</default>
+                <label>34:	Gambling support service</label>
+            </value>
+            <value>
+                <fullName>35:	Maternity services</fullName>
+                <default>false</default>
+                <label>35:	Maternity services</label>
+            </value>
+            <value>
+                <fullName>36:	Peer support/self-help group</fullName>
+                <default>false</default>
+                <label>36:	Peer support/self-help group</label>
+            </value>
+            <value>
+                <fullName>37:	Private allied health provider</fullName>
+                <default>false</default>
+                <label>37:	Private allied health provider</label>
+            </value>
+            <value>
+                <fullName>38:	Sexual Assault service</fullName>
+                <default>false</default>
+                <label>38:	Sexual Assault service</label>
+            </value>
+            <value>
+                <fullName>39:	Financial counsellor</fullName>
+                <default>false</default>
+                <label>39:	Financial counsellor</label>
+            </value>
+            <value>
+                <fullName>40:	Sexual health service</fullName>
+                <default>false</default>
+                <label>40:	Sexual health service</label>
+            </value>
+            <value>
+                <fullName>41:	Medical specialist</fullName>
+                <default>false</default>
+                <label>41:	Medical specialist</label>
+            </value>
+            <value>
+                <fullName>42:	AMHC</fullName>
+                <default>false</default>
+                <label>42:	AMHC</label>
+            </value>
+            <value>
+                <fullName>43:	Other PHN funded service</fullName>
+                <default>false</default>
+                <label>43:	Other PHN funded service</label>
+            </value>
+            <value>
+                <fullName>44:	HeadtoHelp / HeadtoHealth</fullName>
+                <default>false</default>
+                <label>44:	HeadtoHelp / HeadtoHealth</label>
+            </value>
+            <value>
+                <fullName>97:	No Referral</fullName>
+                <default>false</default>
+                <label>97:	No Referral</label>
+            </value>
+            <value>
+                <fullName>98:	Other</fullName>
+                <default>false</default>
+                <label>98:	Other</label>
+            </value>
+            <value>
+                <fullName>99:	Not stated/Inadequately described</fullName>
+                <default>false</default>
+                <label>99:	Not stated/Inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

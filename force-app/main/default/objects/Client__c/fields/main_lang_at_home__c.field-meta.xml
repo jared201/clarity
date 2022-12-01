@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>main_lang_at_home__c</fullName>
+    <externalId>false</externalId>
+    <label>Main Language Spoken at Home</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1101:	Gaelic (Scotland)</fullName>
+                <default>false</default>
+                <label>1101:	Gaelic (Scotland)</label>
+            </value>
+            <value>
+                <fullName>1102:	Irish</fullName>
+                <default>false</default>
+                <label>1102:	Irish</label>
+            </value>
+            <value>
+                <fullName>1103:	Welsh</fullName>
+                <default>false</default>
+                <label>1103:	Welsh</label>
+            </value>
+            <value>
+                <fullName>1199:	Celtic, nec</fullName>
+                <default>false</default>
+                <label>1199:	Celtic, nec</label>
+            </value>
+            <value>
+                <fullName>1201:	English</fullName>
+                <default>false</default>
+                <label>1201:	English</label>
+            </value>
+            <value>
+                <fullName>1301:	German</fullName>
+                <default>false</default>
+                <label>1301:	German</label>
+            </value>
+            <value>
+                <fullName>1302:	Letzeburgish</fullName>
+                <default>false</default>
+                <label>1302:	Letzeburgish</label>
+            </value>
+            <value>
+                <fullName>1303:	Yiddish</fullName>
+                <default>false</default>
+                <label>1303:	Yiddish</label>
+            </value>
+            <value>
+                <fullName>1401:	Dutch</fullName>
+                <default>false</default>
+                <label>1401:	Dutch</label>
+            </value>
+            <value>
+                <fullName>1402:	Frisian</fullName>
+                <default>false</default>
+                <label>1402:	Frisian</label>
+            </value>
+            <value>
+                <fullName>1403:	Afrikaans</fullName>
+                <default>false</default>
+                <label>1403:	Afrikaans</label>
+            </value>
+            <value>
+                <fullName>1501:	Danish</fullName>
+                <default>false</default>
+                <label>1501:	Danish</label>
+            </value>
+            <value>
+                <fullName>1502:	Icelandic</fullName>
+                <default>false</default>
+                <label>1502:	Icelandic</label>
+            </value>
+            <value>
+                <fullName>1503:	Norwegian</fullName>
+                <default>false</default>
+                <label>1503:	Norwegian</label>
+            </value>
+            <value>
+                <fullName>1504:	Swedish</fullName>
+                <default>false</default>
+                <label>1504:	Swedish</label>
+            </value>
+            <value>
+                <fullName>1599:	Scandinavian, nec</fullName>
+                <default>false</default>
+                <label>1599:	Scandinavian, nec</label>
+            </value>
+            <value>
+                <fullName>1601:	Estonian</fullName>
+                <default>false</default>
+                <label>1601:	Estonian</label>
+            </value>
+            <value>
+                <fullName>1602:	Finnish</fullName>
+                <default>false</default>
+                <label>1602:	Finnish</label>
+            </value>
+            <value>
+                <fullName>1699:	Finnish and Related Languages, nec</fullName>
+                <default>false</default>
+                <label>1699:	Finnish and Related Languages, nec</label>
+            </value>
+            <value>
+                <fullName>2101:	French</fullName>
+                <default>false</default>
+                <label>2101:	French</label>
+            </value>
+            <value>
+                <fullName>2201:	Greek</fullName>
+                <default>false</default>
+                <label>2201:	Greek</label>
+            </value>
+            <value>
+                <fullName>2301:	Catalan</fullName>
+                <default>false</default>
+                <label>2301:	Catalan</label>
+            </value>
+            <value>
+                <fullName>2302:	Portuguese</fullName>
+                <default>false</default>
+                <label>2302:	Portuguese</label>
+            </value>
+            <value>
+                <fullName>2303:	Spanish</fullName>
+                <default>false</default>
+                <label>2303:	Spanish</label>
+            </value>
+            <value>
+                <fullName>2399:	Iberian Romance, nec</fullName>
+                <default>false</default>
+                <label>2399:	Iberian Romance, nec</label>
+            </value>
+            <value>
+                <fullName>2401:	Italian</fullName>
+                <default>false</default>
+                <label>2401:	Italian</label>
+            </value>
+            <value>
+                <fullName>2501:	Maltese</fullName>
+                <default>false</default>
+                <label>2501:	Maltese</label>
+            </value>
+            <value>
+                <fullName>2901:	Basque</fullName>
+                <default>false</default>
+                <label>2901:	Basque</label>
+            </value>
+            <value>
+                <fullName>2902:	Latin</fullName>
+                <default>false</default>
+                <label>2902:	Latin</label>
+            </value>
+            <value>
+                <fullName>2999:	Other Southern European Languages, nec</fullName>
+                <default>false</default>
+                <label>2999:	Other Southern European Languages, nec</label>
+            </value>
+            <value>
+                <fullName>3101:	Latvian</fullName>
+                <default>false</default>
+                <label>3101:	Latvian</label>
+            </value>
+            <value>
+                <fullName>3102:	Lithuanian</fullName>
+                <default>false</default>
+                <label>3102:	Lithuanian</label>
+            </value>
+            <value>
+                <fullName>3301:	Hungarian</fullName>
+                <default>false</default>
+                <label>3301:	Hungarian</label>
+            </value>
+            <value>
+                <fullName>3401:	Belorussian</fullName>
+                <default>false</default>
+                <label>3401:	Belorussian</label>
+            </value>
+            <value>
+                <fullName>3402:	Russian</fullName>
+                <default>false</default>
+                <label>3402:	Russian</label>
+            </value>
+            <value>
+                <fullName>3403:	Ukrainian</fullName>
+                <default>false</default>
+                <label>3403:	Ukrainian</label>
+            </value>
+            <value>
+                <fullName>3501:	Bosnian</fullName>
+                <default>false</default>
+                <label>3501:	Bosnian</label>
+            </value>
+            <value>
+                <fullName>3502:	Bulgarian</fullName>
+                <default>false</default>
+                <label>3502:	Bulgarian</label>
+            </value>
+            <value>
+                <fullName>3503:	Croatian</fullName>
+                <default>false</default>
+                <label>3503:	Croatian</label>
+            </value>
+            <value>
+                <fullName>3504:	Macedonian</fullName>
+                <default>false</default>
+                <label>3504:	Macedonian</label>
+            </value>
+            <value>
+                <fullName>3505:	Serbian</fullName>
+                <default>false</default>
+                <label>3505:	Serbian</label>
+            </value>
+            <value>
+                <fullName>3506:	Slovene</fullName>
+                <default>false</default>
+                <label>3506:	Slovene</label>
+            </value>
+            <value>
+                <fullName>3507:	Serbo-Croatian/Yugoslavian, so described</fullName>
+                <default>false</default>
+                <label>3507:	Serbo-Croatian/Yugoslavian, so described</label>
+            </value>
+            <value>
+                <fullName>3601:	Czech</fullName>
+                <default>false</default>
+                <label>3601:	Czech</label>
+            </value>
+            <value>
+                <fullName>3602:	Polish</fullName>
+                <default>false</default>
+                <label>3602:	Polish</label>
+            </value>
+            <value>
+                <fullName>3603:	Slovak</fullName>
+                <default>false</default>
+                <label>3603:	Slovak</label>
+            </value>
+            <value>
+                <fullName>3604:	Czechoslovakian, so described</fullName>
+                <default>false</default>
+                <label>3604:	Czechoslovakian, so described</label>
+            </value>
+            <value>
+                <fullName>3901:	Albanian</fullName>
+                <default>false</default>
+                <label>3901:	Albanian</label>
+            </value>
+            <value>
+                <fullName>3903:	Aromunian (Macedo-Romanian)</fullName>
+                <default>false</default>
+                <label>3903:	Aromunian (Macedo-Romanian)</label>
+            </value>
+            <value>
+                <fullName>3904:	Romanian</fullName>
+                <default>false</default>
+                <label>3904:	Romanian</label>
+            </value>
+            <value>
+                <fullName>3905:	Romany</fullName>
+                <default>false</default>
+                <label>3905:	Romany</label>
+            </value>
+            <value>
+                <fullName>3999:	Other Eastern European Languages, nec</fullName>
+                <default>false</default>
+                <label>3999:	Other Eastern European Languages, nec</label>
+            </value>
+            <value>
+                <fullName>4101:	Kurdish</fullName>
+                <default>false</default>
+                <label>4101:	Kurdish</label>
+            </value>
+            <value>
+                <fullName>4102:	Pashto</fullName>
+                <default>false</default>
+                <label>4102:	Pashto</label>
+            </value>
+            <value>
+                <fullName>4104:	Balochi</fullName>
+                <default>false</default>
+                <label>4104:	Balochi</label>
+            </value>
+            <value>
+                <fullName>4105:	Dari</fullName>
+                <default>false</default>
+                <label>4105:	Dari</label>
+            </value>
+            <value>
+                <fullName>4106:	Persian (excluding Dari)</fullName>
+                <default>false</default>
+                <label>4106:	Persian (excluding Dari)</label>
+            </value>
+            <value>
+                <fullName>4107:	Hazaraghi</fullName>
+                <default>false</default>
+                <label>4107:	Hazaraghi</label>
+            </value>
+            <value>
+                <fullName>4199:	Iranic, nec</fullName>
+                <default>false</default>
+                <label>4199:	Iranic, nec</label>
+            </value>
+            <value>
+                <fullName>4202:	Arabic</fullName>
+                <default>false</default>
+                <label>4202:	Arabic</label>
+            </value>
+            <value>
+                <fullName>4204:	Hebrew</fullName>
+                <default>false</default>
+                <label>4204:	Hebrew</label>
+            </value>
+            <value>
+                <fullName>4206:	Assyrian Neo-Aramaic</fullName>
+                <default>false</default>
+                <label>4206:	Assyrian Neo-Aramaic</label>
+            </value>
+            <value>
+                <fullName>4207:	Chaldean Neo-Aramaic</fullName>
+                <default>false</default>
+                <label>4207:	Chaldean Neo-Aramaic</label>
+            </value>
+            <value>
+                <fullName>4208:	Mandaean (Mandaic)</fullName>
+                <default>false</default>
+                <label>4208:	Mandaean (Mandaic)</label>
+            </value>
+            <value>
+                <fullName>4299:	Middle Eastern Semitic Languages, nec</fullName>
+                <default>false</default>
+                <label>4299:	Middle Eastern Semitic Languages, nec</label>
+            </value>
+            <value>
+                <fullName>4301:	Turkish</fullName>
+                <default>false</default>
+                <label>4301:	Turkish</label>
+            </value>
+            <value>
+                <fullName>4302:	Azeri</fullName>
+                <default>false</default>
+                <label>4302:	Azeri</label>
+            </value>
+            <value>
+                <fullName>4303:	Tatar</fullName>
+                <default>false</default>
+                <label>4303:	Tatar</label>
+            </value>
+            <value>
+                <fullName>4304:	Turkmen</fullName>
+                <default>false</default>
+                <label>4304:	Turkmen</label>
+            </value>
+            <value>
+                <fullName>4305:	Uygur</fullName>
+                <default>false</default>
+                <label>4305:	Uygur</label>
+            </value>
+            <value>
+                <fullName>4306:	Uzbek</fullName>
+                <default>false</default>
+                <label>4306:	Uzbek</label>
+            </value>
+            <value>
+                <fullName>4399:	Turkic, nec</fullName>
+                <default>false</default>
+                <label>4399:	Turkic, nec</label>
+            </value>
+            <value>
+                <fullName>4901:	Armenian</fullName>
+                <default>false</default>
+                <label>4901:	Armenian</label>
+            </value>
+            <value>
+                <fullName>4902:	Georgian</fullName>
+                <default>false</default>
+                <label>4902:	Georgian</label>
+            </value>
+            <value>
+                <fullName>4999:	Other Southwest and Central Asian Languages, nec</fullName>
+                <default>false</default>
+                <label>4999:	Other Southwest and Central Asian Languages, nec</label>
+            </value>
+            <value>
+                <fullName>5101:	Kannada</fullName>
+                <default>false</default>
+                <label>5101:	Kannada</label>
+            </value>
+            <value>
+                <fullName>5102:	Malayalam</fullName>
+                <default>false</default>
+                <label>5102:	Malayalam</label>
+            </value>
+            <value>
+                <fullName>5103:	Tamil</fullName>
+                <default>false</default>
+                <label>5103:	Tamil</label>
+            </value>
+            <value>
+                <fullName>5104:	Telugu</fullName>
+                <default>false</default>
+                <label>5104:	Telugu</label>
+            </value>
+            <value>
+                <fullName>5105:	Tulu</fullName>
+                <default>false</default>
+                <label>5105:	Tulu</label>
+            </value>
+            <value>
+                <fullName>5199:	Dravidian, nec</fullName>
+                <default>false</default>
+                <label>5199:	Dravidian, nec</label>
+            </value>
+            <value>
+                <fullName>5201:	Bengali</fullName>
+                <default>false</default>
+                <label>5201:	Bengali</label>
+            </value>
+            <value>
+                <fullName>5202:	Gujarati</fullName>
+                <default>false</default>
+                <label>5202:	Gujarati</label>
+            </value>
+            <value>
+                <fullName>5203:	Hindi</fullName>
+                <default>false</default>
+                <label>5203:	Hindi</label>
+            </value>
+            <value>
+                <fullName>5204:	Konkani</fullName>
+                <default>false</default>
+                <label>5204:	Konkani</label>
+            </value>
+            <value>
+                <fullName>5205:	Marathi</fullName>
+                <default>false</default>
+                <label>5205:	Marathi</label>
+            </value>
+            <value>
+                <fullName>5206:	Nepali</fullName>
+                <default>false</default>
+                <label>5206:	Nepali</label>
+            </value>
+            <value>
+                <fullName>5207:	Punjabi</fullName>
+                <default>false</default>
+                <label>5207:	Punjabi</label>
+            </value>
+            <value>
+                <fullName>5208:	Sindhi</fullName>
+                <default>false</default>
+                <label>5208:	Sindhi</label>
+            </value>
+            <value>
+                <fullName>5211:	Sinhalese</fullName>
+                <default>false</default>
+                <label>5211:	Sinhalese</label>
+            </value>
+            <value>
+                <fullName>5212:	Urdu</fullName>
+                <default>false</default>
+                <label>5212:	Urdu</label>
+            </value>
+            <value>
+                <fullName>5213:	Assamese</fullName>
+                <default>false</default>
+                <label>5213:	Assamese</label>
+            </value>
+            <value>
+                <fullName>5214:	Dhivehi</fullName>
+                <default>false</default>
+                <label>5214:	Dhivehi</label>
+            </value>
+            <value>
+                <fullName>5215:	Kashmiri</fullName>
+                <default>false</default>
+                <label>5215:	Kashmiri</label>
+            </value>
+            <value>
+                <fullName>5216:	Oriya</fullName>
+                <default>false</default>
+                <label>5216:	Oriya</label>
+            </value>
+            <value>
+                <fullName>5217:	Fijian Hindustani</fullName>
+                <default>false</default>
+                <label>5217:	Fijian Hindustani</label>
+            </value>
+            <value>
+                <fullName>5299:	Indo-Aryan, nec</fullName>
+                <default>false</default>
+                <label>5299:	Indo-Aryan, nec</label>
+            </value>
+            <value>
+                <fullName>5999:	Other Southern Asian Languages</fullName>
+                <default>false</default>
+                <label>5999:	Other Southern Asian Languages</label>
+            </value>
+            <value>
+                <fullName>6101:	Burmese</fullName>
+                <default>false</default>
+                <label>6101:	Burmese</label>
+            </value>
+            <value>
+                <fullName>6102:	Chin Haka</fullName>
+                <default>false</default>
+                <label>6102:	Chin Haka</label>
+            </value>
+            <value>
+                <fullName>6103:	Karen</fullName>
+                <default>false</default>
+                <label>6103:	Karen</label>
+            </value>
+            <value>
+                <fullName>6104:	Rohingya</fullName>
+                <default>false</default>
+                <label>6104:	Rohingya</label>
+            </value>
+            <value>
+                <fullName>6105:	Zomi</fullName>
+                <default>false</default>
+                <label>6105:	Zomi</label>
+            </value>
+            <value>
+                <fullName>6199:	Burmese and Related Languages, nec</fullName>
+                <default>false</default>
+                <label>6199:	Burmese and Related Languages, nec</label>
+            </value>
+            <value>
+                <fullName>6201:	Hmong</fullName>
+                <default>false</default>
+                <label>6201:	Hmong</label>
+            </value>
+            <value>
+                <fullName>6299:	Hmong-Mien, nec</fullName>
+                <default>false</default>
+                <label>6299:	Hmong-Mien, nec</label>
+            </value>
+            <value>
+                <fullName>6301:	Khmer</fullName>
+                <default>false</default>
+                <label>6301:	Khmer</label>
+            </value>
+            <value>
+                <fullName>6302:	Vietnamese</fullName>
+                <default>false</default>
+                <label>6302:	Vietnamese</label>
+            </value>
+            <value>
+                <fullName>6303:	Mon</fullName>
+                <default>false</default>
+                <label>6303:	Mon</label>
+            </value>
+            <value>
+                <fullName>6399:	Mon-Khmer, nec</fullName>
+                <default>false</default>
+                <label>6399:	Mon-Khmer, nec</label>
+            </value>
+            <value>
+                <fullName>6401:	Lao</fullName>
+                <default>false</default>
+                <label>6401:	Lao</label>
+            </value>
+            <value>
+                <fullName>6402:	Thai</fullName>
+                <default>false</default>
+                <label>6402:	Thai</label>
+            </value>
+            <value>
+                <fullName>6499:	Tai, nec</fullName>
+                <default>false</default>
+                <label>6499:	Tai, nec</label>
+            </value>
+            <value>
+                <fullName>6501:	Bisaya</fullName>
+                <default>false</default>
+                <label>6501:	Bisaya</label>
+            </value>
+            <value>
+                <fullName>6502:	Cebuano</fullName>
+                <default>false</default>
+                <label>6502:	Cebuano</label>
+            </value>
+            <value>
+                <fullName>6503:	IIokano</fullName>
+                <default>false</default>
+                <label>6503:	IIokano</label>
+            </value>
+            <value>
+                <fullName>6504:	Indonesian</fullName>
+                <default>false</default>
+                <label>6504:	Indonesian</label>
+            </value>
+            <value>
+                <fullName>6505:	Malay</fullName>
+                <default>false</default>
+                <label>6505:	Malay</label>
+            </value>
+            <value>
+                <fullName>6507:	Tetum</fullName>
+                <default>false</default>
+                <label>6507:	Tetum</label>
+            </value>
+            <value>
+                <fullName>6508:	Timorese</fullName>
+                <default>false</default>
+                <label>6508:	Timorese</label>
+            </value>
+            <value>
+                <fullName>6511:	Tagalog</fullName>
+                <default>false</default>
+                <label>6511:	Tagalog</label>
+            </value>
+            <value>
+                <fullName>6512:	Filipino</fullName>
+                <default>false</default>
+                <label>6512:	Filipino</label>
+            </value>
+            <value>
+                <fullName>6513:	Acehnese</fullName>
+                <default>false</default>
+                <label>6513:	Acehnese</label>
+            </value>
+            <value>
+                <fullName>6514:	Balinese</fullName>
+                <default>false</default>
+                <label>6514:	Balinese</label>
+            </value>
+            <value>
+                <fullName>6515:	Bikol</fullName>
+                <default>false</default>
+                <label>6515:	Bikol</label>
+            </value>
+            <value>
+                <fullName>6516:	Iban</fullName>
+                <default>false</default>
+                <label>6516:	Iban</label>
+            </value>
+            <value>
+                <fullName>6517:	Ilonggo (Hiligaynon)</fullName>
+                <default>false</default>
+                <label>6517:	Ilonggo (Hiligaynon)</label>
+            </value>
+            <value>
+                <fullName>6518:	Javanese</fullName>
+                <default>false</default>
+                <label>6518:	Javanese</label>
+            </value>
+            <value>
+                <fullName>6521:	Pampangan</fullName>
+                <default>false</default>
+                <label>6521:	Pampangan</label>
+            </value>
+            <value>
+                <fullName>6599:	Southeast Asian Austronesian Languages, nec</fullName>
+                <default>false</default>
+                <label>6599:	Southeast Asian Austronesian Languages, nec</label>
+            </value>
+            <value>
+                <fullName>6999:	Other Southeast Asian Languages</fullName>
+                <default>false</default>
+                <label>6999:	Other Southeast Asian Languages</label>
+            </value>
+            <value>
+                <fullName>7101:	Cantonese</fullName>
+                <default>false</default>
+                <label>7101:	Cantonese</label>
+            </value>
+            <value>
+                <fullName>7102:	Hakka</fullName>
+                <default>false</default>
+                <label>7102:	Hakka</label>
+            </value>
+            <value>
+                <fullName>7104:	Mandarin</fullName>
+                <default>false</default>
+                <label>7104:	Mandarin</label>
+            </value>
+            <value>
+                <fullName>7106:	Wu</fullName>
+                <default>false</default>
+                <label>7106:	Wu</label>
+            </value>
+            <value>
+                <fullName>7107:	Min Nan</fullName>
+                <default>false</default>
+                <label>7107:	Min Nan</label>
+            </value>
+            <value>
+                <fullName>7199:	Chinese, nec</fullName>
+                <default>false</default>
+                <label>7199:	Chinese, nec</label>
+            </value>
+            <value>
+                <fullName>7201:	Japanese</fullName>
+                <default>false</default>
+                <label>7201:	Japanese</label>
+            </value>
+            <value>
+                <fullName>7301:	Korean</fullName>
+                <default>false</default>
+                <label>7301:	Korean</label>
+            </value>
+            <value>
+                <fullName>7901:	Tibetan</fullName>
+                <default>false</default>
+                <label>7901:	Tibetan</label>
+            </value>
+            <value>
+                <fullName>7902:	Mongolian</fullName>
+                <default>false</default>
+                <label>7902:	Mongolian</label>
+            </value>
+            <value>
+                <fullName>7999:	Other Eastern Asian Languages, nec</fullName>
+                <default>false</default>
+                <label>7999:	Other Eastern Asian Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8101:	Anindilyakwa</fullName>
+                <default>false</default>
+                <label>8101:	Anindilyakwa</label>
+            </value>
+            <value>
+                <fullName>8111:	Maung</fullName>
+                <default>false</default>
+                <label>8111:	Maung</label>
+            </value>
+            <value>
+                <fullName>8113:	Ngan’gikurunggurr</fullName>
+                <default>false</default>
+                <label>8113:	Ngan’gikurunggurr</label>
+            </value>
+            <value>
+                <fullName>8114:	Nunggubuyu</fullName>
+                <default>false</default>
+                <label>8114:	Nunggubuyu</label>
+            </value>
+            <value>
+                <fullName>8115:	Rembarrnga</fullName>
+                <default>false</default>
+                <label>8115:	Rembarrnga</label>
+            </value>
+            <value>
+                <fullName>8117:	Tiwi</fullName>
+                <default>false</default>
+                <label>8117:	Tiwi</label>
+            </value>
+            <value>
+                <fullName>8121:	Alawa</fullName>
+                <default>false</default>
+                <label>8121:	Alawa</label>
+            </value>
+            <value>
+                <fullName>8122:	Dalabon</fullName>
+                <default>false</default>
+                <label>8122:	Dalabon</label>
+            </value>
+            <value>
+                <fullName>8123:	Gudanji</fullName>
+                <default>false</default>
+                <label>8123:	Gudanji</label>
+            </value>
+            <value>
+                <fullName>8127:	Iwaidja</fullName>
+                <default>false</default>
+                <label>8127:	Iwaidja</label>
+            </value>
+            <value>
+                <fullName>8128:	Jaminjung</fullName>
+                <default>false</default>
+                <label>8128:	Jaminjung</label>
+            </value>
+            <value>
+                <fullName>8131:	Jawoyn</fullName>
+                <default>false</default>
+                <label>8131:	Jawoyn</label>
+            </value>
+            <value>
+                <fullName>8132:	Jingulu</fullName>
+                <default>false</default>
+                <label>8132:	Jingulu</label>
+            </value>
+            <value>
+                <fullName>8133:	Kunbarlang</fullName>
+                <default>false</default>
+                <label>8133:	Kunbarlang</label>
+            </value>
+            <value>
+                <fullName>8136:	Larrakiya</fullName>
+                <default>false</default>
+                <label>8136:	Larrakiya</label>
+            </value>
+            <value>
+                <fullName>8137:	Malak Malak</fullName>
+                <default>false</default>
+                <label>8137:	Malak Malak</label>
+            </value>
+            <value>
+                <fullName>8138:	Mangarrayi</fullName>
+                <default>false</default>
+                <label>8138:	Mangarrayi</label>
+            </value>
+            <value>
+                <fullName>8141:	Maringarr</fullName>
+                <default>false</default>
+                <label>8141:	Maringarr</label>
+            </value>
+            <value>
+                <fullName>8142:	Marra</fullName>
+                <default>false</default>
+                <label>8142:	Marra</label>
+            </value>
+            <value>
+                <fullName>8143:	Marrithiyel</fullName>
+                <default>false</default>
+                <label>8143:	Marrithiyel</label>
+            </value>
+            <value>
+                <fullName>8144:	Matngala</fullName>
+                <default>false</default>
+                <label>8144:	Matngala</label>
+            </value>
+            <value>
+                <fullName>8146:	Murrinh Patha</fullName>
+                <default>false</default>
+                <label>8146:	Murrinh Patha</label>
+            </value>
+            <value>
+                <fullName>8147:	Na-kara</fullName>
+                <default>false</default>
+                <label>8147:	Na-kara</label>
+            </value>
+            <value>
+                <fullName>8148:	Ndjebbana (Gunavidji)</fullName>
+                <default>false</default>
+                <label>8148:	Ndjebbana (Gunavidji)</label>
+            </value>
+            <value>
+                <fullName>8151:	Ngalakgan</fullName>
+                <default>false</default>
+                <label>8151:	Ngalakgan</label>
+            </value>
+            <value>
+                <fullName>8152:	Ngaliwurru</fullName>
+                <default>false</default>
+                <label>8152:	Ngaliwurru</label>
+            </value>
+            <value>
+                <fullName>8153:	Nungali</fullName>
+                <default>false</default>
+                <label>8153:	Nungali</label>
+            </value>
+            <value>
+                <fullName>8154:	Wambaya</fullName>
+                <default>false</default>
+                <label>8154:	Wambaya</label>
+            </value>
+            <value>
+                <fullName>8155:	Wardaman</fullName>
+                <default>false</default>
+                <label>8155:	Wardaman</label>
+            </value>
+            <value>
+                <fullName>8156:	Amurdak</fullName>
+                <default>false</default>
+                <label>8156:	Amurdak</label>
+            </value>
+            <value>
+                <fullName>8157:	Garrwa</fullName>
+                <default>false</default>
+                <label>8157:	Garrwa</label>
+            </value>
+            <value>
+                <fullName>8158:	Kuwema</fullName>
+                <default>false</default>
+                <label>8158:	Kuwema</label>
+            </value>
+            <value>
+                <fullName>8161:	Marramaninyshi</fullName>
+                <default>false</default>
+                <label>8161:	Marramaninyshi</label>
+            </value>
+            <value>
+                <fullName>8162:	Ngandi</fullName>
+                <default>false</default>
+                <label>8162:	Ngandi</label>
+            </value>
+            <value>
+                <fullName>8163:	Waanyi</fullName>
+                <default>false</default>
+                <label>8163:	Waanyi</label>
+            </value>
+            <value>
+                <fullName>8164:	Wagiman</fullName>
+                <default>false</default>
+                <label>8164:	Wagiman</label>
+            </value>
+            <value>
+                <fullName>8165:	Yanyuwa</fullName>
+                <default>false</default>
+                <label>8165:	Yanyuwa</label>
+            </value>
+            <value>
+                <fullName>8166:	Marridan (Maridan)</fullName>
+                <default>false</default>
+                <label>8166:	Marridan (Maridan)</label>
+            </value>
+            <value>
+                <fullName>8171:	Gundjeihmi</fullName>
+                <default>false</default>
+                <label>8171:	Gundjeihmi</label>
+            </value>
+            <value>
+                <fullName>8172:	Kune</fullName>
+                <default>false</default>
+                <label>8172:	Kune</label>
+            </value>
+            <value>
+                <fullName>8173:	Kuninjku</fullName>
+                <default>false</default>
+                <label>8173:	Kuninjku</label>
+            </value>
+            <value>
+                <fullName>8174:	Kunwinjku</fullName>
+                <default>false</default>
+                <label>8174:	Kunwinjku</label>
+            </value>
+            <value>
+                <fullName>8175:	Mayali</fullName>
+                <default>false</default>
+                <label>8175:	Mayali</label>
+            </value>
+            <value>
+                <fullName>8179:	Kunwinjkuan, nec</fullName>
+                <default>false</default>
+                <label>8179:	Kunwinjkuan, nec</label>
+            </value>
+            <value>
+                <fullName>8181:	Burarra</fullName>
+                <default>false</default>
+                <label>8181:	Burarra</label>
+            </value>
+            <value>
+                <fullName>8182:	Gun-nartpa</fullName>
+                <default>false</default>
+                <label>8182:	Gun-nartpa</label>
+            </value>
+            <value>
+                <fullName>8183:	Gurr-goni</fullName>
+                <default>false</default>
+                <label>8183:	Gurr-goni</label>
+            </value>
+            <value>
+                <fullName>8189:	Burarran, nec</fullName>
+                <default>false</default>
+                <label>8189:	Burarran, nec</label>
+            </value>
+            <value>
+                <fullName>8199:	Arnhem Land and Daly River Region Languages, nec</fullName>
+                <default>false</default>
+                <label>8199:	Arnhem Land and Daly River Region Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8211:	Galpu</fullName>
+                <default>false</default>
+                <label>8211:	Galpu</label>
+            </value>
+            <value>
+                <fullName>8212:	Golumala</fullName>
+                <default>false</default>
+                <label>8212:	Golumala</label>
+            </value>
+            <value>
+                <fullName>8213:	Wangurri</fullName>
+                <default>false</default>
+                <label>8213:	Wangurri</label>
+            </value>
+            <value>
+                <fullName>8219:	Dhangu, nec</fullName>
+                <default>false</default>
+                <label>8219:	Dhangu, nec</label>
+            </value>
+            <value>
+                <fullName>8221:	Dhalwangu</fullName>
+                <default>false</default>
+                <label>8221:	Dhalwangu</label>
+            </value>
+            <value>
+                <fullName>8222:	Djarrwark</fullName>
+                <default>false</default>
+                <label>8222:	Djarrwark</label>
+            </value>
+            <value>
+                <fullName>8229:	Dhay’yi, nec</fullName>
+                <default>false</default>
+                <label>8229:	Dhay’yi, nec</label>
+            </value>
+            <value>
+                <fullName>8231:	Djambarrpuyngu</fullName>
+                <default>false</default>
+                <label>8231:	Djambarrpuyngu</label>
+            </value>
+            <value>
+                <fullName>8232:	Djapu</fullName>
+                <default>false</default>
+                <label>8232:	Djapu</label>
+            </value>
+            <value>
+                <fullName>8233:	Daatiwuy</fullName>
+                <default>false</default>
+                <label>8233:	Daatiwuy</label>
+            </value>
+            <value>
+                <fullName>8234:	Marrangu</fullName>
+                <default>false</default>
+                <label>8234:	Marrangu</label>
+            </value>
+            <value>
+                <fullName>8235:	Liyagalawumirr</fullName>
+                <default>false</default>
+                <label>8235:	Liyagalawumirr</label>
+            </value>
+            <value>
+                <fullName>8236:	Liyagawumirr</fullName>
+                <default>false</default>
+                <label>8236:	Liyagawumirr</label>
+            </value>
+            <value>
+                <fullName>8239:	Dhuwal, nec</fullName>
+                <default>false</default>
+                <label>8239:	Dhuwal, nec</label>
+            </value>
+            <value>
+                <fullName>8242:	Gumatj</fullName>
+                <default>false</default>
+                <label>8242:	Gumatj</label>
+            </value>
+            <value>
+                <fullName>8243:	Gupapuyngu</fullName>
+                <default>false</default>
+                <label>8243:	Gupapuyngu</label>
+            </value>
+            <value>
+                <fullName>8244:	Guyamirrilili</fullName>
+                <default>false</default>
+                <label>8244:	Guyamirrilili</label>
+            </value>
+            <value>
+                <fullName>8246:	Manggalili</fullName>
+                <default>false</default>
+                <label>8246:	Manggalili</label>
+            </value>
+            <value>
+                <fullName>8247:	Wubulkarra</fullName>
+                <default>false</default>
+                <label>8247:	Wubulkarra</label>
+            </value>
+            <value>
+                <fullName>8249:	Dhuwala, nec</fullName>
+                <default>false</default>
+                <label>8249:	Dhuwala, nec</label>
+            </value>
+            <value>
+                <fullName>8251:	Wurlaki</fullName>
+                <default>false</default>
+                <label>8251:	Wurlaki</label>
+            </value>
+            <value>
+                <fullName>8259:	Djinang, nec</fullName>
+                <default>false</default>
+                <label>8259:	Djinang, nec</label>
+            </value>
+            <value>
+                <fullName>8261:	Ganalbingu</fullName>
+                <default>false</default>
+                <label>8261:	Ganalbingu</label>
+            </value>
+            <value>
+                <fullName>8262:	Djinba</fullName>
+                <default>false</default>
+                <label>8262:	Djinba</label>
+            </value>
+            <value>
+                <fullName>8263:	Manyjalpingu</fullName>
+                <default>false</default>
+                <label>8263:	Manyjalpingu</label>
+            </value>
+            <value>
+                <fullName>8269:	Djinba, nec</fullName>
+                <default>false</default>
+                <label>8269:	Djinba, nec</label>
+            </value>
+            <value>
+                <fullName>8271:	Ritharrngu</fullName>
+                <default>false</default>
+                <label>8271:	Ritharrngu</label>
+            </value>
+            <value>
+                <fullName>8272:	Wagilak</fullName>
+                <default>false</default>
+                <label>8272:	Wagilak</label>
+            </value>
+            <value>
+                <fullName>8279:	Yakuy, nec</fullName>
+                <default>false</default>
+                <label>8279:	Yakuy, nec</label>
+            </value>
+            <value>
+                <fullName>8281:	Nhangu</fullName>
+                <default>false</default>
+                <label>8281:	Nhangu</label>
+            </value>
+            <value>
+                <fullName>8282:	Yan-nhangu</fullName>
+                <default>false</default>
+                <label>8282:	Yan-nhangu</label>
+            </value>
+            <value>
+                <fullName>8289:	Nhangu, nec</fullName>
+                <default>false</default>
+                <label>8289:	Nhangu, nec</label>
+            </value>
+            <value>
+                <fullName>8291:	Dhuwaya</fullName>
+                <default>false</default>
+                <label>8291:	Dhuwaya</label>
+            </value>
+            <value>
+                <fullName>8292:	Djangu</fullName>
+                <default>false</default>
+                <label>8292:	Djangu</label>
+            </value>
+            <value>
+                <fullName>8293:	Madarrpa</fullName>
+                <default>false</default>
+                <label>8293:	Madarrpa</label>
+            </value>
+            <value>
+                <fullName>8294:	Warramiri</fullName>
+                <default>false</default>
+                <label>8294:	Warramiri</label>
+            </value>
+            <value>
+                <fullName>8295:	Rirratjingu</fullName>
+                <default>false</default>
+                <label>8295:	Rirratjingu</label>
+            </value>
+            <value>
+                <fullName>8299:	Other Yolngu Matha, nec</fullName>
+                <default>false</default>
+                <label>8299:	Other Yolngu Matha, nec</label>
+            </value>
+            <value>
+                <fullName>8301:	Kuku Yalanji</fullName>
+                <default>false</default>
+                <label>8301:	Kuku Yalanji</label>
+            </value>
+            <value>
+                <fullName>8302:	Guugu Yimidhirr</fullName>
+                <default>false</default>
+                <label>8302:	Guugu Yimidhirr</label>
+            </value>
+            <value>
+                <fullName>8303:	Kuuku-Ya’u</fullName>
+                <default>false</default>
+                <label>8303:	Kuuku-Ya’u</label>
+            </value>
+            <value>
+                <fullName>8304:	Wik Mungkan</fullName>
+                <default>false</default>
+                <label>8304:	Wik Mungkan</label>
+            </value>
+            <value>
+                <fullName>8305:	Djabugay</fullName>
+                <default>false</default>
+                <label>8305:	Djabugay</label>
+            </value>
+            <value>
+                <fullName>8306:	Dyirbal</fullName>
+                <default>false</default>
+                <label>8306:	Dyirbal</label>
+            </value>
+            <value>
+                <fullName>8307:	Girramay</fullName>
+                <default>false</default>
+                <label>8307:	Girramay</label>
+            </value>
+            <value>
+                <fullName>8308:	Koko-Bera</fullName>
+                <default>false</default>
+                <label>8308:	Koko-Bera</label>
+            </value>
+            <value>
+                <fullName>8311:	Kuuk Thayorre</fullName>
+                <default>false</default>
+                <label>8311:	Kuuk Thayorre</label>
+            </value>
+            <value>
+                <fullName>8312:	Lamalama</fullName>
+                <default>false</default>
+                <label>8312:	Lamalama</label>
+            </value>
+            <value>
+                <fullName>8313:	Yidiny</fullName>
+                <default>false</default>
+                <label>8313:	Yidiny</label>
+            </value>
+            <value>
+                <fullName>8314:	Wik Ngathan</fullName>
+                <default>false</default>
+                <label>8314:	Wik Ngathan</label>
+            </value>
+            <value>
+                <fullName>8315:	Alngith</fullName>
+                <default>false</default>
+                <label>8315:	Alngith</label>
+            </value>
+            <value>
+                <fullName>8316:	Kugu Muminh</fullName>
+                <default>false</default>
+                <label>8316:	Kugu Muminh</label>
+            </value>
+            <value>
+                <fullName>8317:	Morrobalama</fullName>
+                <default>false</default>
+                <label>8317:	Morrobalama</label>
+            </value>
+            <value>
+                <fullName>8318:	Thaynakwith</fullName>
+                <default>false</default>
+                <label>8318:	Thaynakwith</label>
+            </value>
+            <value>
+                <fullName>8321:	Yupangathi</fullName>
+                <default>false</default>
+                <label>8321:	Yupangathi</label>
+            </value>
+            <value>
+                <fullName>8322:	Tjungundji</fullName>
+                <default>false</default>
+                <label>8322:	Tjungundji</label>
+            </value>
+            <value>
+                <fullName>8399:	Cape York Peninsula Languages, nec</fullName>
+                <default>false</default>
+                <label>8399:	Cape York Peninsula Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8401:	Kalaw Kawaw Ya/Kalaw Lagaw Ya</fullName>
+                <default>false</default>
+                <label>8401:	Kalaw Kawaw Ya/Kalaw Lagaw Ya</label>
+            </value>
+            <value>
+                <fullName>8402:	Meriam Mir</fullName>
+                <default>false</default>
+                <label>8402:	Meriam Mir</label>
+            </value>
+            <value>
+                <fullName>8403:	Yumplatok (Torres Strait Creole)</fullName>
+                <default>false</default>
+                <label>8403:	Yumplatok (Torres Strait Creole)</label>
+            </value>
+            <value>
+                <fullName>8504:	Bilinarra</fullName>
+                <default>false</default>
+                <label>8504:	Bilinarra</label>
+            </value>
+            <value>
+                <fullName>8505:	Gurindji</fullName>
+                <default>false</default>
+                <label>8505:	Gurindji</label>
+            </value>
+            <value>
+                <fullName>8506:	Gurindji Kriol</fullName>
+                <default>false</default>
+                <label>8506:	Gurindji Kriol</label>
+            </value>
+            <value>
+                <fullName>8507:	Jaru</fullName>
+                <default>false</default>
+                <label>8507:	Jaru</label>
+            </value>
+            <value>
+                <fullName>8508:	Light Warlpiri</fullName>
+                <default>false</default>
+                <label>8508:	Light Warlpiri</label>
+            </value>
+            <value>
+                <fullName>8511:	Malngin</fullName>
+                <default>false</default>
+                <label>8511:	Malngin</label>
+            </value>
+            <value>
+                <fullName>8512:	Mudburra</fullName>
+                <default>false</default>
+                <label>8512:	Mudburra</label>
+            </value>
+            <value>
+                <fullName>8514:	Ngardi</fullName>
+                <default>false</default>
+                <label>8514:	Ngardi</label>
+            </value>
+            <value>
+                <fullName>8515:	Ngarinyman</fullName>
+                <default>false</default>
+                <label>8515:	Ngarinyman</label>
+            </value>
+            <value>
+                <fullName>8516:	Walmajarri</fullName>
+                <default>false</default>
+                <label>8516:	Walmajarri</label>
+            </value>
+            <value>
+                <fullName>8517:	Wanyjirra</fullName>
+                <default>false</default>
+                <label>8517:	Wanyjirra</label>
+            </value>
+            <value>
+                <fullName>8518:	Warlmanpa</fullName>
+                <default>false</default>
+                <label>8518:	Warlmanpa</label>
+            </value>
+            <value>
+                <fullName>8521:	Warlpiri</fullName>
+                <default>false</default>
+                <label>8521:	Warlpiri</label>
+            </value>
+            <value>
+                <fullName>8522:	Warumungu</fullName>
+                <default>false</default>
+                <label>8522:	Warumungu</label>
+            </value>
+            <value>
+                <fullName>8599:	Northern Desert Fringe Area Languages, nec</fullName>
+                <default>false</default>
+                <label>8599:	Northern Desert Fringe Area Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8603:	Alyawarr</fullName>
+                <default>false</default>
+                <label>8603:	Alyawarr</label>
+            </value>
+            <value>
+                <fullName>8606:	Kaytetye</fullName>
+                <default>false</default>
+                <label>8606:	Kaytetye</label>
+            </value>
+            <value>
+                <fullName>8607:	Antekerrepenh</fullName>
+                <default>false</default>
+                <label>8607:	Antekerrepenh</label>
+            </value>
+            <value>
+                <fullName>8611:	Central Anmatyerr</fullName>
+                <default>false</default>
+                <label>8611:	Central Anmatyerr</label>
+            </value>
+            <value>
+                <fullName>8612:	Eastern Anmatyerr</fullName>
+                <default>false</default>
+                <label>8612:	Eastern Anmatyerr</label>
+            </value>
+            <value>
+                <fullName>8619:	Anmatyerr, nec</fullName>
+                <default>false</default>
+                <label>8619:	Anmatyerr, nec</label>
+            </value>
+            <value>
+                <fullName>8621:	Eastern Arrernte</fullName>
+                <default>false</default>
+                <label>8621:	Eastern Arrernte</label>
+            </value>
+            <value>
+                <fullName>8622:	Western Arrarnta</fullName>
+                <default>false</default>
+                <label>8622:	Western Arrarnta</label>
+            </value>
+            <value>
+                <fullName>8629:	Arrernte, nec</fullName>
+                <default>false</default>
+                <label>8629:	Arrernte, nec</label>
+            </value>
+            <value>
+                <fullName>8699:	Arandic, nec</fullName>
+                <default>false</default>
+                <label>8699:	Arandic, nec</label>
+            </value>
+            <value>
+                <fullName>8703:	Antikarinya</fullName>
+                <default>false</default>
+                <label>8703:	Antikarinya</label>
+            </value>
+            <value>
+                <fullName>8704:	Kartujarra</fullName>
+                <default>false</default>
+                <label>8704:	Kartujarra</label>
+            </value>
+            <value>
+                <fullName>8705:	Kukatha</fullName>
+                <default>false</default>
+                <label>8705:	Kukatha</label>
+            </value>
+            <value>
+                <fullName>8706:	Kukatja</fullName>
+                <default>false</default>
+                <label>8706:	Kukatja</label>
+            </value>
+            <value>
+                <fullName>8707:	Luritja</fullName>
+                <default>false</default>
+                <label>8707:	Luritja</label>
+            </value>
+            <value>
+                <fullName>8708:	Manyjilyjarra</fullName>
+                <default>false</default>
+                <label>8708:	Manyjilyjarra</label>
+            </value>
+            <value>
+                <fullName>8711:	Martu Wangka</fullName>
+                <default>false</default>
+                <label>8711:	Martu Wangka</label>
+            </value>
+            <value>
+                <fullName>8712:	Ngaanyatjarra</fullName>
+                <default>false</default>
+                <label>8712:	Ngaanyatjarra</label>
+            </value>
+            <value>
+                <fullName>8713:	Pintupi</fullName>
+                <default>false</default>
+                <label>8713:	Pintupi</label>
+            </value>
+            <value>
+                <fullName>8714:	Pitjantjatjara</fullName>
+                <default>false</default>
+                <label>8714:	Pitjantjatjara</label>
+            </value>
+            <value>
+                <fullName>8715:	Wangkajunga</fullName>
+                <default>false</default>
+                <label>8715:	Wangkajunga</label>
+            </value>
+            <value>
+                <fullName>8716:	Wangkatha</fullName>
+                <default>false</default>
+                <label>8716:	Wangkatha</label>
+            </value>
+            <value>
+                <fullName>8717:	Warnman</fullName>
+                <default>false</default>
+                <label>8717:	Warnman</label>
+            </value>
+            <value>
+                <fullName>8718:	Yankunytjatjara</fullName>
+                <default>false</default>
+                <label>8718:	Yankunytjatjara</label>
+            </value>
+            <value>
+                <fullName>8721:	Yulparija</fullName>
+                <default>false</default>
+                <label>8721:	Yulparija</label>
+            </value>
+            <value>
+                <fullName>8722:	Tjupany</fullName>
+                <default>false</default>
+                <label>8722:	Tjupany</label>
+            </value>
+            <value>
+                <fullName>8799:	Western Desert Languages, nec</fullName>
+                <default>false</default>
+                <label>8799:	Western Desert Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8801:	Bardi</fullName>
+                <default>false</default>
+                <label>8801:	Bardi</label>
+            </value>
+            <value>
+                <fullName>8802:	Bunuba</fullName>
+                <default>false</default>
+                <label>8802:	Bunuba</label>
+            </value>
+            <value>
+                <fullName>8803:	Gooniyandi</fullName>
+                <default>false</default>
+                <label>8803:	Gooniyandi</label>
+            </value>
+            <value>
+                <fullName>8804:	Miriwoong</fullName>
+                <default>false</default>
+                <label>8804:	Miriwoong</label>
+            </value>
+            <value>
+                <fullName>8805:	Ngarinyin</fullName>
+                <default>false</default>
+                <label>8805:	Ngarinyin</label>
+            </value>
+            <value>
+                <fullName>8806:	Nyikina</fullName>
+                <default>false</default>
+                <label>8806:	Nyikina</label>
+            </value>
+            <value>
+                <fullName>8807:	Worla</fullName>
+                <default>false</default>
+                <label>8807:	Worla</label>
+            </value>
+            <value>
+                <fullName>8808:	Worrorra</fullName>
+                <default>false</default>
+                <label>8808:	Worrorra</label>
+            </value>
+            <value>
+                <fullName>8811:	Wunambal</fullName>
+                <default>false</default>
+                <label>8811:	Wunambal</label>
+            </value>
+            <value>
+                <fullName>8812:	Yawuru</fullName>
+                <default>false</default>
+                <label>8812:	Yawuru</label>
+            </value>
+            <value>
+                <fullName>8813:	Gambera</fullName>
+                <default>false</default>
+                <label>8813:	Gambera</label>
+            </value>
+            <value>
+                <fullName>8814:	Jawi</fullName>
+                <default>false</default>
+                <label>8814:	Jawi</label>
+            </value>
+            <value>
+                <fullName>8815:	Kija</fullName>
+                <default>false</default>
+                <label>8815:	Kija</label>
+            </value>
+            <value>
+                <fullName>8899:	Kimberley Area Languages, nec</fullName>
+                <default>false</default>
+                <label>8899:	Kimberley Area Languages, nec</label>
+            </value>
+            <value>
+                <fullName>8901:	Adnymathanha</fullName>
+                <default>false</default>
+                <label>8901:	Adnymathanha</label>
+            </value>
+            <value>
+                <fullName>8902:	Arabana</fullName>
+                <default>false</default>
+                <label>8902:	Arabana</label>
+            </value>
+            <value>
+                <fullName>8903:	Bandjalang</fullName>
+                <default>false</default>
+                <label>8903:	Bandjalang</label>
+            </value>
+            <value>
+                <fullName>8904:	Banyjima</fullName>
+                <default>false</default>
+                <label>8904:	Banyjima</label>
+            </value>
+            <value>
+                <fullName>8905:	Batjala</fullName>
+                <default>false</default>
+                <label>8905:	Batjala</label>
+            </value>
+            <value>
+                <fullName>8906:	Bidjara</fullName>
+                <default>false</default>
+                <label>8906:	Bidjara</label>
+            </value>
+            <value>
+                <fullName>8907:	Dhanggatti</fullName>
+                <default>false</default>
+                <label>8907:	Dhanggatti</label>
+            </value>
+            <value>
+                <fullName>8908:	Diyari</fullName>
+                <default>false</default>
+                <label>8908:	Diyari</label>
+            </value>
+            <value>
+                <fullName>8911:	Gamilaraay</fullName>
+                <default>false</default>
+                <label>8911:	Gamilaraay</label>
+            </value>
+            <value>
+                <fullName>8913:	Garuwali</fullName>
+                <default>false</default>
+                <label>8913:	Garuwali</label>
+            </value>
+            <value>
+                <fullName>8914:	Githabul</fullName>
+                <default>false</default>
+                <label>8914:	Githabul</label>
+            </value>
+            <value>
+                <fullName>8915:	Gumbaynggir</fullName>
+                <default>false</default>
+                <label>8915:	Gumbaynggir</label>
+            </value>
+            <value>
+                <fullName>8916:	Kanai</fullName>
+                <default>false</default>
+                <label>8916:	Kanai</label>
+            </value>
+            <value>
+                <fullName>8917:	Karajarri</fullName>
+                <default>false</default>
+                <label>8917:	Karajarri</label>
+            </value>
+            <value>
+                <fullName>8918:	Kariyarra</fullName>
+                <default>false</default>
+                <label>8918:	Kariyarra</label>
+            </value>
+            <value>
+                <fullName>8921:	Kaurna</fullName>
+                <default>false</default>
+                <label>8921:	Kaurna</label>
+            </value>
+            <value>
+                <fullName>8922:	Kayardild</fullName>
+                <default>false</default>
+                <label>8922:	Kayardild</label>
+            </value>
+            <value>
+                <fullName>8924:	Kriol</fullName>
+                <default>false</default>
+                <label>8924:	Kriol</label>
+            </value>
+            <value>
+                <fullName>8925:	Lardil</fullName>
+                <default>false</default>
+                <label>8925:	Lardil</label>
+            </value>
+            <value>
+                <fullName>8926:	Mangala</fullName>
+                <default>false</default>
+                <label>8926:	Mangala</label>
+            </value>
+            <value>
+                <fullName>8927:	Muruwari</fullName>
+                <default>false</default>
+                <label>8927:	Muruwari</label>
+            </value>
+            <value>
+                <fullName>8928:	Narungga</fullName>
+                <default>false</default>
+                <label>8928:	Narungga</label>
+            </value>
+            <value>
+                <fullName>8931:	Ngarluma</fullName>
+                <default>false</default>
+                <label>8931:	Ngarluma</label>
+            </value>
+            <value>
+                <fullName>8932:	Ngarrindjeri</fullName>
+                <default>false</default>
+                <label>8932:	Ngarrindjeri</label>
+            </value>
+            <value>
+                <fullName>8933:	Nyamal</fullName>
+                <default>false</default>
+                <label>8933:	Nyamal</label>
+            </value>
+            <value>
+                <fullName>8934:	Nyangumarta</fullName>
+                <default>false</default>
+                <label>8934:	Nyangumarta</label>
+            </value>
+            <value>
+                <fullName>8935:	Nyungar</fullName>
+                <default>false</default>
+                <label>8935:	Nyungar</label>
+            </value>
+            <value>
+                <fullName>8936:	Paakantyi</fullName>
+                <default>false</default>
+                <label>8936:	Paakantyi</label>
+            </value>
+            <value>
+                <fullName>8937:	Palyku/Nyiyaparli</fullName>
+                <default>false</default>
+                <label>8937:	Palyku/Nyiyaparli</label>
+            </value>
+            <value>
+                <fullName>8938:	Wajarri</fullName>
+                <default>false</default>
+                <label>8938:	Wajarri</label>
+            </value>
+            <value>
+                <fullName>8941:	Wiradjuri</fullName>
+                <default>false</default>
+                <label>8941:	Wiradjuri</label>
+            </value>
+            <value>
+                <fullName>8943:	Yindjibarndi</fullName>
+                <default>false</default>
+                <label>8943:	Yindjibarndi</label>
+            </value>
+            <value>
+                <fullName>8944:	Yinhawangka</fullName>
+                <default>false</default>
+                <label>8944:	Yinhawangka</label>
+            </value>
+            <value>
+                <fullName>8945:	Yorta Yorta</fullName>
+                <default>false</default>
+                <label>8945:	Yorta Yorta</label>
+            </value>
+            <value>
+                <fullName>8946:	Baanbay</fullName>
+                <default>false</default>
+                <label>8946:	Baanbay</label>
+            </value>
+            <value>
+                <fullName>8947:	Badimaya</fullName>
+                <default>false</default>
+                <label>8947:	Badimaya</label>
+            </value>
+            <value>
+                <fullName>8948:	Barababaraba</fullName>
+                <default>false</default>
+                <label>8948:	Barababaraba</label>
+            </value>
+            <value>
+                <fullName>8951:	Dadi Dadi</fullName>
+                <default>false</default>
+                <label>8951:	Dadi Dadi</label>
+            </value>
+            <value>
+                <fullName>8952:	Dharawal</fullName>
+                <default>false</default>
+                <label>8952:	Dharawal</label>
+            </value>
+            <value>
+                <fullName>8953:	Djabwurrung</fullName>
+                <default>false</default>
+                <label>8953:	Djabwurrung</label>
+            </value>
+            <value>
+                <fullName>8954:	Gudjal</fullName>
+                <default>false</default>
+                <label>8954:	Gudjal</label>
+            </value>
+            <value>
+                <fullName>8955:	Keerray-Woorroong</fullName>
+                <default>false</default>
+                <label>8955:	Keerray-Woorroong</label>
+            </value>
+            <value>
+                <fullName>8956:	Ladji Ladji</fullName>
+                <default>false</default>
+                <label>8956:	Ladji Ladji</label>
+            </value>
+            <value>
+                <fullName>8957:	Mirning</fullName>
+                <default>false</default>
+                <label>8957:	Mirning</label>
+            </value>
+            <value>
+                <fullName>8958:	Ngatjumaya</fullName>
+                <default>false</default>
+                <label>8958:	Ngatjumaya</label>
+            </value>
+            <value>
+                <fullName>8961:	Waluwarra</fullName>
+                <default>false</default>
+                <label>8961:	Waluwarra</label>
+            </value>
+            <value>
+                <fullName>8962:	Wangkangurru</fullName>
+                <default>false</default>
+                <label>8962:	Wangkangurru</label>
+            </value>
+            <value>
+                <fullName>8963:	Wargamay</fullName>
+                <default>false</default>
+                <label>8963:	Wargamay</label>
+            </value>
+            <value>
+                <fullName>8964:	Wergaia</fullName>
+                <default>false</default>
+                <label>8964:	Wergaia</label>
+            </value>
+            <value>
+                <fullName>8965:	Yugambeh</fullName>
+                <default>false</default>
+                <label>8965:	Yugambeh</label>
+            </value>
+            <value>
+                <fullName>8998:	Aboriginal English, so described</fullName>
+                <default>false</default>
+                <label>8998:	Aboriginal English, so described</label>
+            </value>
+            <value>
+                <fullName>8999:	Other Australian Indigenous Languages, nec</fullName>
+                <default>false</default>
+                <label>8999:	Other Australian Indigenous Languages, nec</label>
+            </value>
+            <value>
+                <fullName>9101:	American Languages</fullName>
+                <default>false</default>
+                <label>9101:	American Languages</label>
+            </value>
+            <value>
+                <fullName>9201:	Acholi</fullName>
+                <default>false</default>
+                <label>9201:	Acholi</label>
+            </value>
+            <value>
+                <fullName>9203:	Akan</fullName>
+                <default>false</default>
+                <label>9203:	Akan</label>
+            </value>
+            <value>
+                <fullName>9205:	Mauritian Creole</fullName>
+                <default>false</default>
+                <label>9205:	Mauritian Creole</label>
+            </value>
+            <value>
+                <fullName>9206:	Oromo</fullName>
+                <default>false</default>
+                <label>9206:	Oromo</label>
+            </value>
+            <value>
+                <fullName>9207:	Shona</fullName>
+                <default>false</default>
+                <label>9207:	Shona</label>
+            </value>
+            <value>
+                <fullName>9208:	Somali</fullName>
+                <default>false</default>
+                <label>9208:	Somali</label>
+            </value>
+            <value>
+                <fullName>9211:	Swahili</fullName>
+                <default>false</default>
+                <label>9211:	Swahili</label>
+            </value>
+            <value>
+                <fullName>9212:	Yoruba</fullName>
+                <default>false</default>
+                <label>9212:	Yoruba</label>
+            </value>
+            <value>
+                <fullName>9213:	Zulu</fullName>
+                <default>false</default>
+                <label>9213:	Zulu</label>
+            </value>
+            <value>
+                <fullName>9214:	Amharic</fullName>
+                <default>false</default>
+                <label>9214:	Amharic</label>
+            </value>
+            <value>
+                <fullName>9215:	Bemba</fullName>
+                <default>false</default>
+                <label>9215:	Bemba</label>
+            </value>
+            <value>
+                <fullName>9216:	Dinka</fullName>
+                <default>false</default>
+                <label>9216:	Dinka</label>
+            </value>
+            <value>
+                <fullName>9217:	Ewe</fullName>
+                <default>false</default>
+                <label>9217:	Ewe</label>
+            </value>
+            <value>
+                <fullName>9218:	Ga</fullName>
+                <default>false</default>
+                <label>9218:	Ga</label>
+            </value>
+            <value>
+                <fullName>9221:	Harari</fullName>
+                <default>false</default>
+                <label>9221:	Harari</label>
+            </value>
+            <value>
+                <fullName>9222:	Hausa</fullName>
+                <default>false</default>
+                <label>9222:	Hausa</label>
+            </value>
+            <value>
+                <fullName>9223:	Igbo</fullName>
+                <default>false</default>
+                <label>9223:	Igbo</label>
+            </value>
+            <value>
+                <fullName>9224:	Kikuyu</fullName>
+                <default>false</default>
+                <label>9224:	Kikuyu</label>
+            </value>
+            <value>
+                <fullName>9225:	Krio</fullName>
+                <default>false</default>
+                <label>9225:	Krio</label>
+            </value>
+            <value>
+                <fullName>9226:	Luganda</fullName>
+                <default>false</default>
+                <label>9226:	Luganda</label>
+            </value>
+            <value>
+                <fullName>9227:	Luo</fullName>
+                <default>false</default>
+                <label>9227:	Luo</label>
+            </value>
+            <value>
+                <fullName>9228:	Ndebele</fullName>
+                <default>false</default>
+                <label>9228:	Ndebele</label>
+            </value>
+            <value>
+                <fullName>9231:	Nuer</fullName>
+                <default>false</default>
+                <label>9231:	Nuer</label>
+            </value>
+            <value>
+                <fullName>9232:	Nyanja (Chichewa)</fullName>
+                <default>false</default>
+                <label>9232:	Nyanja (Chichewa)</label>
+            </value>
+            <value>
+                <fullName>9233:	Shilluk</fullName>
+                <default>false</default>
+                <label>9233:	Shilluk</label>
+            </value>
+            <value>
+                <fullName>9234:	Tigre</fullName>
+                <default>false</default>
+                <label>9234:	Tigre</label>
+            </value>
+            <value>
+                <fullName>9235:	Tigrinya</fullName>
+                <default>false</default>
+                <label>9235:	Tigrinya</label>
+            </value>
+            <value>
+                <fullName>9236:	Tswana</fullName>
+                <default>false</default>
+                <label>9236:	Tswana</label>
+            </value>
+            <value>
+                <fullName>9237:	Xhosa</fullName>
+                <default>false</default>
+                <label>9237:	Xhosa</label>
+            </value>
+            <value>
+                <fullName>9238:	Seychelles Creole</fullName>
+                <default>false</default>
+                <label>9238:	Seychelles Creole</label>
+            </value>
+            <value>
+                <fullName>9241:	Anuak</fullName>
+                <default>false</default>
+                <label>9241:	Anuak</label>
+            </value>
+            <value>
+                <fullName>9242:	Bari</fullName>
+                <default>false</default>
+                <label>9242:	Bari</label>
+            </value>
+            <value>
+                <fullName>9243:	Bassa</fullName>
+                <default>false</default>
+                <label>9243:	Bassa</label>
+            </value>
+            <value>
+                <fullName>9244:	Dan (Gio-Dan)</fullName>
+                <default>false</default>
+                <label>9244:	Dan (Gio-Dan)</label>
+            </value>
+            <value>
+                <fullName>9245:	Fulfulde</fullName>
+                <default>false</default>
+                <label>9245:	Fulfulde</label>
+            </value>
+            <value>
+                <fullName>9246:	Kinyarwanda (Rwanda)</fullName>
+                <default>false</default>
+                <label>9246:	Kinyarwanda (Rwanda)</label>
+            </value>
+            <value>
+                <fullName>9247:	Kirundi (Rundi)</fullName>
+                <default>false</default>
+                <label>9247:	Kirundi (Rundi)</label>
+            </value>
+            <value>
+                <fullName>9248:	Kpelle</fullName>
+                <default>false</default>
+                <label>9248:	Kpelle</label>
+            </value>
+            <value>
+                <fullName>9251:	Krahn</fullName>
+                <default>false</default>
+                <label>9251:	Krahn</label>
+            </value>
+            <value>
+                <fullName>9252:	Liberian (Liberian English)</fullName>
+                <default>false</default>
+                <label>9252:	Liberian (Liberian English)</label>
+            </value>
+            <value>
+                <fullName>9253:	Loma (Lorma)</fullName>
+                <default>false</default>
+                <label>9253:	Loma (Lorma)</label>
+            </value>
+            <value>
+                <fullName>9254:	Lumun (Kuku Lumun)</fullName>
+                <default>false</default>
+                <label>9254:	Lumun (Kuku Lumun)</label>
+            </value>
+            <value>
+                <fullName>9255:	Madi</fullName>
+                <default>false</default>
+                <label>9255:	Madi</label>
+            </value>
+            <value>
+                <fullName>9256:	Mandinka</fullName>
+                <default>false</default>
+                <label>9256:	Mandinka</label>
+            </value>
+            <value>
+                <fullName>9257:	Mann</fullName>
+                <default>false</default>
+                <label>9257:	Mann</label>
+            </value>
+            <value>
+                <fullName>9258:	Moro (Nuba Moro)</fullName>
+                <default>false</default>
+                <label>9258:	Moro (Nuba Moro)</label>
+            </value>
+            <value>
+                <fullName>9261:	Themne</fullName>
+                <default>false</default>
+                <label>9261:	Themne</label>
+            </value>
+            <value>
+                <fullName>9262:	Lingala</fullName>
+                <default>false</default>
+                <label>9262:	Lingala</label>
+            </value>
+            <value>
+                <fullName>9299:	African Languages, nec</fullName>
+                <default>false</default>
+                <label>9299:	African Languages, nec</label>
+            </value>
+            <value>
+                <fullName>9301:	Fijian</fullName>
+                <default>false</default>
+                <label>9301:	Fijian</label>
+            </value>
+            <value>
+                <fullName>9302:	Gilbertese</fullName>
+                <default>false</default>
+                <label>9302:	Gilbertese</label>
+            </value>
+            <value>
+                <fullName>9303:	Maori (Cook Island)</fullName>
+                <default>false</default>
+                <label>9303:	Maori (Cook Island)</label>
+            </value>
+            <value>
+                <fullName>9304:	Maori (New Zealand)</fullName>
+                <default>false</default>
+                <label>9304:	Maori (New Zealand)</label>
+            </value>
+            <value>
+                <fullName>9306:	Nauruan</fullName>
+                <default>false</default>
+                <label>9306:	Nauruan</label>
+            </value>
+            <value>
+                <fullName>9307:	Niue</fullName>
+                <default>false</default>
+                <label>9307:	Niue</label>
+            </value>
+            <value>
+                <fullName>9308:	Samoan</fullName>
+                <default>false</default>
+                <label>9308:	Samoan</label>
+            </value>
+            <value>
+                <fullName>9311:	Tongan</fullName>
+                <default>false</default>
+                <label>9311:	Tongan</label>
+            </value>
+            <value>
+                <fullName>9312:	Rotuman</fullName>
+                <default>false</default>
+                <label>9312:	Rotuman</label>
+            </value>
+            <value>
+                <fullName>9313:	Tokelauan</fullName>
+                <default>false</default>
+                <label>9313:	Tokelauan</label>
+            </value>
+            <value>
+                <fullName>9314:	Tuvaluan</fullName>
+                <default>false</default>
+                <label>9314:	Tuvaluan</label>
+            </value>
+            <value>
+                <fullName>9315:	Yapese</fullName>
+                <default>false</default>
+                <label>9315:	Yapese</label>
+            </value>
+            <value>
+                <fullName>9399:	Pacific Austronesian Languages, nec</fullName>
+                <default>false</default>
+                <label>9399:	Pacific Austronesian Languages, nec</label>
+            </value>
+            <value>
+                <fullName>9402:	Bislama</fullName>
+                <default>false</default>
+                <label>9402:	Bislama</label>
+            </value>
+            <value>
+                <fullName>9403:	Hawaiian English</fullName>
+                <default>false</default>
+                <label>9403:	Hawaiian English</label>
+            </value>
+            <value>
+                <fullName>9404:	Norf’k-Pitcairn</fullName>
+                <default>false</default>
+                <label>9404:	Norf’k-Pitcairn</label>
+            </value>
+            <value>
+                <fullName>9405:	Solomon Islands Pijin</fullName>
+                <default>false</default>
+                <label>9405:	Solomon Islands Pijin</label>
+            </value>
+            <value>
+                <fullName>9499:	Oceanian Pidgins and Creoles, nec</fullName>
+                <default>false</default>
+                <label>9499:	Oceanian Pidgins and Creoles, nec</label>
+            </value>
+            <value>
+                <fullName>9502:	Kiwai</fullName>
+                <default>false</default>
+                <label>9502:	Kiwai</label>
+            </value>
+            <value>
+                <fullName>9503:	Motu (HiriMotu)</fullName>
+                <default>false</default>
+                <label>9503:	Motu (HiriMotu)</label>
+            </value>
+            <value>
+                <fullName>9504:	Tok Pisin (Neomelanesian)</fullName>
+                <default>false</default>
+                <label>9504:	Tok Pisin (Neomelanesian)</label>
+            </value>
+            <value>
+                <fullName>9599:	Papua New Guinea Languages, nec</fullName>
+                <default>false</default>
+                <label>9599:	Papua New Guinea Languages, nec</label>
+            </value>
+            <value>
+                <fullName>9601:	Invented Languages</fullName>
+                <default>false</default>
+                <label>9601:	Invented Languages</label>
+            </value>
+            <value>
+                <fullName>9701:	Auslan</fullName>
+                <default>false</default>
+                <label>9701:	Auslan</label>
+            </value>
+            <value>
+                <fullName>9702:	Key Word Sign Australia</fullName>
+                <default>false</default>
+                <label>9702:	Key Word Sign Australia</label>
+            </value>
+            <value>
+                <fullName>9799:	Sign Languages, nec</fullName>
+                <default>false</default>
+                <label>9799:	Sign Languages, nec</label>
+            </value>
+            <value>
+                <fullName>9999:	Unknown</fullName>
+                <default>false</default>
+                <label>9999:	Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

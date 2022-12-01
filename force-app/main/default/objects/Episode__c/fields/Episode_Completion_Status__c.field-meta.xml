@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Episode_Completion_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Episode Completion Status</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	Episode open</fullName>
+                <default>false</default>
+                <label>0:	Episode open</label>
+            </value>
+            <value>
+                <fullName>1:	Episode closed - treatment concluded</fullName>
+                <default>false</default>
+                <label>1:	Episode closed - treatment concluded</label>
+            </value>
+            <value>
+                <fullName>2:	Episode closed administratively - client could not be contacted</fullName>
+                <default>false</default>
+                <label>2:	Episode closed administratively - client could not be contacted</label>
+            </value>
+            <value>
+                <fullName>3:	Episode closed administratively - client declined further contact</fullName>
+                <default>false</default>
+                <label>3:	Episode closed administratively - client declined further contact</label>
+            </value>
+            <value>
+                <fullName>4:	Episode closed administratively - client moved out of area</fullName>
+                <default>false</default>
+                <label>4:	Episode closed administratively - client moved out of area</label>
+            </value>
+            <value>
+                <fullName>5:	Episode closed administratively - client referred elsewhere</fullName>
+                <default>false</default>
+                <label>5:	Episode closed administratively - client referred elsewhere</label>
+            </value>
+            <value>
+                <fullName>6:	Episode closed administratively - other reason</fullName>
+                <default>false</default>
+                <label>6:	Episode closed administratively - other reason</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

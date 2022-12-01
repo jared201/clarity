@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organisation_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Organisation Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>The Australian Business Number of the provider organisation.</fullName>
+                <default>false</default>
+                <label>The Australian Business Number of the provider organisation.</label>
+            </value>
+            <value>
+                <fullName>Private Psychiatry Practice</fullName>
+                <default>false</default>
+                <label>Private Psychiatry Practice</label>
+            </value>
+            <value>
+                <fullName>General Medical Practice</fullName>
+                <default>false</default>
+                <label>General Medical Practice</label>
+            </value>
+            <value>
+                <fullName>Private Hospital</fullName>
+                <default>false</default>
+                <label>Private Hospital</label>
+            </value>
+            <value>
+                <fullName>Headspace Centre</fullName>
+                <default>false</default>
+                <label>Headspace Centre</label>
+            </value>
+            <value>
+                <fullName>Early Youth Psychosis Centre</fullName>
+                <default>false</default>
+                <label>Early Youth Psychosis Centre</label>
+            </value>
+            <value>
+                <fullName>Community-managed Community Support Organisation</fullName>
+                <default>false</default>
+                <label>Community-managed Community Support Organisation</label>
+            </value>
+            <value>
+                <fullName>Aboriginal Health/Medical Service</fullName>
+                <default>false</default>
+                <label>Aboriginal Health/Medical Service</label>
+            </value>
+            <value>
+                <fullName>State/Territory Health Service Organisation</fullName>
+                <default>false</default>
+                <label>State/Territory Health Service Organisation</label>
+            </value>
+            <value>
+                <fullName>Drug and/or Alcohol Service</fullName>
+                <default>false</default>
+                <label>Drug and/or Alcohol Service</label>
+            </value>
+            <value>
+                <fullName>Primary Health Network</fullName>
+                <default>false</default>
+                <label>Primary Health Network</label>
+            </value>
+            <value>
+                <fullName>Medicare Local</fullName>
+                <default>false</default>
+                <label>Medicare Local</label>
+            </value>
+            <value>
+                <fullName>Division of General Practice</fullName>
+                <default>false</default>
+                <label>Division of General Practice</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Missing</fullName>
+                <default>false</default>
+                <label>Missing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

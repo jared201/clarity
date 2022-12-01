@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Key__c</fullName>
+    <description>This is a number or code assigned to each individual client referred to the commissioned organisation. The client identifier must be unique and stable for each individual within the Provider Organisation. Assigned by either the PHN or Provider Organisation depending on local procedures.</description>
+    <externalId>false</externalId>
+    <label>Client Key</label>
+    <length>50</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

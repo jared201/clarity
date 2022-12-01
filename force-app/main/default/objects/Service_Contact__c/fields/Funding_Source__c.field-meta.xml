@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Funding Source</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	Flexible funding pool - Not Otherwise Stated</fullName>
+                <default>false</default>
+                <label>0:	Flexible funding pool - Not Otherwise Stated</label>
+            </value>
+            <value>
+                <fullName>11:	Flexible funding pool - Low intensity</fullName>
+                <default>false</default>
+                <label>11:	Flexible funding pool - Low intensity</label>
+            </value>
+            <value>
+                <fullName>12:	Flexible funding pool - Youth Severe</fullName>
+                <default>false</default>
+                <label>12:	Flexible funding pool - Youth Severe</label>
+            </value>
+            <value>
+                <fullName>13:	Flexible funding pool - Child and Youth</fullName>
+                <default>false</default>
+                <label>13:	Flexible funding pool - Child and Youth</label>
+            </value>
+            <value>
+                <fullName>14:	Flexible funding pool - Psychological therapies for hard to reach</fullName>
+                <default>false</default>
+                <label>14:	Flexible funding pool - Psychological therapies for hard to reach</label>
+            </value>
+            <value>
+                <fullName>15:	Flexible funding pool - Services for People with Severe Mental Illness</fullName>
+                <default>false</default>
+                <label>15:	Flexible funding pool - Services for People with Severe Mental Illness</label>
+            </value>
+            <value>
+                <fullName>16:	Flexible funding pool - Suicide Prevention - Indigenous</fullName>
+                <default>false</default>
+                <label>16:	Flexible funding pool - Suicide Prevention - Indigenous</label>
+            </value>
+            <value>
+                <fullName>17:	Flexible funding pool - Suicide Prevention - General</fullName>
+                <default>false</default>
+                <label>17:	Flexible funding pool - Suicide Prevention - General</label>
+            </value>
+            <value>
+                <fullName>18:	Indigenous Mental Health</fullName>
+                <default>false</default>
+                <label>18:	Indigenous Mental Health</label>
+            </value>
+            <value>
+                <fullName>19:	Commonwealth Psychosocial Support</fullName>
+                <default>false</default>
+                <label>19:	Commonwealth Psychosocial Support</label>
+            </value>
+            <value>
+                <fullName>20:	Psychological Treatment in Residential Aged Care Facilities</fullName>
+                <default>false</default>
+                <label>20:	Psychological Treatment in Residential Aged Care Facilities</label>
+            </value>
+            <value>
+                <fullName>21:	Emergency Response - Bushfire Recovery 2020</fullName>
+                <default>false</default>
+                <label>21:	Emergency Response - Bushfire Recovery 2020</label>
+            </value>
+            <value>
+                <fullName>22:	Emergency Response - Flood 2022</fullName>
+                <default>false</default>
+                <label>22:	Emergency Response - Flood 2022</label>
+            </value>
+            <value>
+                <fullName>23:	Head to Health program</fullName>
+                <default>false</default>
+                <label>23:	Head to Health program</label>
+            </value>
+            <value>
+                <fullName>24:	Head to Health Kids Hubs</fullName>
+                <default>false</default>
+                <label>24:	Head to Health Kids Hubs</label>
+            </value>
+            <value>
+                <fullName>25:	Norfolk Island</fullName>
+                <default>false</default>
+                <label>25:	Norfolk Island</label>
+            </value>
+            <value>
+                <fullName>26:	National Suicide Prevention Trial</fullName>
+                <default>false</default>
+                <label>26:	National Suicide Prevention Trial</label>
+            </value>
+            <value>
+                <fullName>27:	Way Back Support Service</fullName>
+                <default>false</default>
+                <label>27:	Way Back Support Service</label>
+            </value>
+            <value>
+                <fullName>97:	Other funding source – no Commonwealth Funding</fullName>
+                <default>false</default>
+                <label>97:	Other funding source – no Commonwealth Funding</label>
+            </value>
+            <value>
+                <fullName>98:	Unknown/Not stated</fullName>
+                <default>false</default>
+                <label>98:	Unknown/Not stated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

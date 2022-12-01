@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organisation_type_referred_to_at_Episode__c</fullName>
+    <externalId>false</externalId>
+    <label>Organisation type referred to at Episode</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	None/Not applicable</fullName>
+                <default>false</default>
+                <label>0:	None/Not applicable</label>
+            </value>
+            <value>
+                <fullName>1:	General Practice</fullName>
+                <default>false</default>
+                <label>1:	General Practice</label>
+            </value>
+            <value>
+                <fullName>2:	Medical Specialist Consulting Rooms</fullName>
+                <default>false</default>
+                <label>2:	Medical Specialist Consulting Rooms</label>
+            </value>
+            <value>
+                <fullName>3:	Private practice</fullName>
+                <default>false</default>
+                <label>3:	Private practice</label>
+            </value>
+            <value>
+                <fullName>4:	Public mental health service</fullName>
+                <default>false</default>
+                <label>4:	Public mental health service</label>
+            </value>
+            <value>
+                <fullName>5:	Public Hospital</fullName>
+                <default>false</default>
+                <label>5:	Public Hospital</label>
+            </value>
+            <value>
+                <fullName>6:	Private Hospital</fullName>
+                <default>false</default>
+                <label>6:	Private Hospital</label>
+            </value>
+            <value>
+                <fullName>7:	Emergency Department</fullName>
+                <default>false</default>
+                <label>7:	Emergency Department</label>
+            </value>
+            <value>
+                <fullName>8:	Community Health Centre</fullName>
+                <default>false</default>
+                <label>8:	Community Health Centre</label>
+            </value>
+            <value>
+                <fullName>9:	Drug and Alcohol Service</fullName>
+                <default>false</default>
+                <label>9:	Drug and Alcohol Service</label>
+            </value>
+            <value>
+                <fullName>10:	Community Support Organisation NFP</fullName>
+                <default>false</default>
+                <label>10:	Community Support Organisation NFP</label>
+            </value>
+            <value>
+                <fullName>11:	Indigenous Health Organisation</fullName>
+                <default>false</default>
+                <label>11:	Indigenous Health Organisation</label>
+            </value>
+            <value>
+                <fullName>12:	Child and Maternal Health</fullName>
+                <default>false</default>
+                <label>12:	Child and Maternal Health</label>
+            </value>
+            <value>
+                <fullName>13:	Nursing Service</fullName>
+                <default>false</default>
+                <label>13:	Nursing Service</label>
+            </value>
+            <value>
+                <fullName>14:	Telephone helpline</fullName>
+                <default>false</default>
+                <label>14:	Telephone helpline</label>
+            </value>
+            <value>
+                <fullName>15:	Digital health service</fullName>
+                <default>false</default>
+                <label>15:	Digital health service</label>
+            </value>
+            <value>
+                <fullName>16:	Family Support Service</fullName>
+                <default>false</default>
+                <label>16:	Family Support Service</label>
+            </value>
+            <value>
+                <fullName>17:	School</fullName>
+                <default>false</default>
+                <label>17:	School</label>
+            </value>
+            <value>
+                <fullName>18:	Tertiary Education institution</fullName>
+                <default>false</default>
+                <label>18:	Tertiary Education institution</label>
+            </value>
+            <value>
+                <fullName>19:	Housing service</fullName>
+                <default>false</default>
+                <label>19:	Housing service</label>
+            </value>
+            <value>
+                <fullName>20:	Centrelink</fullName>
+                <default>false</default>
+                <label>20:	Centrelink</label>
+            </value>
+            <value>
+                <fullName>21:	Other</fullName>
+                <default>false</default>
+                <label>21:	Other</label>
+            </value>
+            <value>
+                <fullName>22:	HeadtoHelp / HeadtoHealth Hub</fullName>
+                <default>false</default>
+                <label>22:	HeadtoHelp / HeadtoHealth Hub</label>
+            </value>
+            <value>
+                <fullName>23:	Other PHN funded service</fullName>
+                <default>false</default>
+                <label>23:	Other PHN funded service</label>
+            </value>
+            <value>
+                <fullName>24:	AMHC</fullName>
+                <default>false</default>
+                <label>24:	AMHC</label>
+            </value>
+            <value>
+                <fullName>99:	Not stated</fullName>
+                <default>false</default>
+                <label>99:	Not stated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

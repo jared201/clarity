@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employment_Participation__c</fullName>
+    <externalId>false</externalId>
+    <label>Employment Participation</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Full-time</fullName>
+                <default>false</default>
+                <label>1:	Full-time</label>
+            </value>
+            <value>
+                <fullName>2:	Part-time</fullName>
+                <default>false</default>
+                <label>2:	Part-time</label>
+            </value>
+            <value>
+                <fullName>3:	Not applicable - not in the labour force</fullName>
+                <default>false</default>
+                <label>3:	Not applicable - not in the labour force</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated/inadequately described</fullName>
+                <default>false</default>
+                <label>9:	Not stated/inadequately described</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

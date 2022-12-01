@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referrer_Profession__c</fullName>
+    <externalId>false</externalId>
+    <label>Referrer Profession</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	General Practitioner</fullName>
+                <default>false</default>
+                <label>1:	General Practitioner</label>
+            </value>
+            <value>
+                <fullName>2:	Psychiatrist</fullName>
+                <default>false</default>
+                <label>2:	Psychiatrist</label>
+            </value>
+            <value>
+                <fullName>3:	Obstetrician</fullName>
+                <default>false</default>
+                <label>3:	Obstetrician</label>
+            </value>
+            <value>
+                <fullName>4:	Paediatrician</fullName>
+                <default>false</default>
+                <label>4:	Paediatrician</label>
+            </value>
+            <value>
+                <fullName>5:	Other Medical Specialist</fullName>
+                <default>false</default>
+                <label>5:	Other Medical Specialist</label>
+            </value>
+            <value>
+                <fullName>6:	Midwife</fullName>
+                <default>false</default>
+                <label>6:	Midwife</label>
+            </value>
+            <value>
+                <fullName>7:	Maternal Health Nurse</fullName>
+                <default>false</default>
+                <label>7:	Maternal Health Nurse</label>
+            </value>
+            <value>
+                <fullName>8:	Psychologist</fullName>
+                <default>false</default>
+                <label>8:	Psychologist</label>
+            </value>
+            <value>
+                <fullName>9:	Mental Health Nurse</fullName>
+                <default>false</default>
+                <label>9:	Mental Health Nurse</label>
+            </value>
+            <value>
+                <fullName>10:	Social Worker</fullName>
+                <default>false</default>
+                <label>10:	Social Worker</label>
+            </value>
+            <value>
+                <fullName>11:	Occupational therapist</fullName>
+                <default>false</default>
+                <label>11:	Occupational therapist</label>
+            </value>
+            <value>
+                <fullName>12:	Aboriginal Health Worker</fullName>
+                <default>false</default>
+                <label>12:	Aboriginal Health Worker</label>
+            </value>
+            <value>
+                <fullName>13:	Educational professional</fullName>
+                <default>false</default>
+                <label>13:	Educational professional</label>
+            </value>
+            <value>
+                <fullName>14:	Early childhood service worker</fullName>
+                <default>false</default>
+                <label>14:	Early childhood service worker</label>
+            </value>
+            <value>
+                <fullName>15:	Other</fullName>
+                <default>false</default>
+                <label>15:	Other</label>
+            </value>
+            <value>
+                <fullName>98:	N/A - Self referral</fullName>
+                <default>false</default>
+                <label>98:	N/A - Self referral</label>
+            </value>
+            <value>
+                <fullName>99:	Not stated</fullName>
+                <default>false</default>
+                <label>99:	Not stated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Of_Birth__c</fullName>
+    <externalId>false</externalId>
+    <label>Country Of Birth</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1101:	Australia</fullName>
+                <default>false</default>
+                <label>1101:	Australia</label>
+            </value>
+            <value>
+                <fullName>1102:	Norfolk Island</fullName>
+                <default>false</default>
+                <label>1102:	Norfolk Island</label>
+            </value>
+            <value>
+                <fullName>1199:	Australian External Territories, nec</fullName>
+                <default>false</default>
+                <label>1199:	Australian External Territories, nec</label>
+            </value>
+            <value>
+                <fullName>1201:	New Zealand</fullName>
+                <default>false</default>
+                <label>1201:	New Zealand</label>
+            </value>
+            <value>
+                <fullName>1301:	New Caledonia</fullName>
+                <default>false</default>
+                <label>1301:	New Caledonia</label>
+            </value>
+            <value>
+                <fullName>1302:	Papua New Guinea</fullName>
+                <default>false</default>
+                <label>1302:	Papua New Guinea</label>
+            </value>
+            <value>
+                <fullName>1303:	Solomon Islands</fullName>
+                <default>false</default>
+                <label>1303:	Solomon Islands</label>
+            </value>
+            <value>
+                <fullName>1304:	Vanuatu</fullName>
+                <default>false</default>
+                <label>1304:	Vanuatu</label>
+            </value>
+            <value>
+                <fullName>1401:	Guam</fullName>
+                <default>false</default>
+                <label>1401:	Guam</label>
+            </value>
+            <value>
+                <fullName>1402:	Kiribati</fullName>
+                <default>false</default>
+                <label>1402:	Kiribati</label>
+            </value>
+            <value>
+                <fullName>1403:	Marshall Islands</fullName>
+                <default>false</default>
+                <label>1403:	Marshall Islands</label>
+            </value>
+            <value>
+                <fullName>1404:	Micronesia, Federated States of</fullName>
+                <default>false</default>
+                <label>1404:	Micronesia, Federated States of</label>
+            </value>
+            <value>
+                <fullName>1405:	Nauru</fullName>
+                <default>false</default>
+                <label>1405:	Nauru</label>
+            </value>
+            <value>
+                <fullName>1406:	Northern Mariana Islands</fullName>
+                <default>false</default>
+                <label>1406:	Northern Mariana Islands</label>
+            </value>
+            <value>
+                <fullName>1407:	Palau</fullName>
+                <default>false</default>
+                <label>1407:	Palau</label>
+            </value>
+            <value>
+                <fullName>1501:	Cook Islands</fullName>
+                <default>false</default>
+                <label>1501:	Cook Islands</label>
+            </value>
+            <value>
+                <fullName>1502:	Fiji</fullName>
+                <default>false</default>
+                <label>1502:	Fiji</label>
+            </value>
+            <value>
+                <fullName>1503:	French Polynesia</fullName>
+                <default>false</default>
+                <label>1503:	French Polynesia</label>
+            </value>
+            <value>
+                <fullName>1504:	Niue</fullName>
+                <default>false</default>
+                <label>1504:	Niue</label>
+            </value>
+            <value>
+                <fullName>1505:	Samoa</fullName>
+                <default>false</default>
+                <label>1505:	Samoa</label>
+            </value>
+            <value>
+                <fullName>1506:	Samoa, American</fullName>
+                <default>false</default>
+                <label>1506:	Samoa, American</label>
+            </value>
+            <value>
+                <fullName>1507:	Tokelau</fullName>
+                <default>false</default>
+                <label>1507:	Tokelau</label>
+            </value>
+            <value>
+                <fullName>1508:	Tonga</fullName>
+                <default>false</default>
+                <label>1508:	Tonga</label>
+            </value>
+            <value>
+                <fullName>1511:	Tuvalu</fullName>
+                <default>false</default>
+                <label>1511:	Tuvalu</label>
+            </value>
+            <value>
+                <fullName>1512:	Wallis and Futuna</fullName>
+                <default>false</default>
+                <label>1512:	Wallis and Futuna</label>
+            </value>
+            <value>
+                <fullName>1513:	Pitcairn Islands</fullName>
+                <default>false</default>
+                <label>1513:	Pitcairn Islands</label>
+            </value>
+            <value>
+                <fullName>1599:	Polynesia (excludes Hawaii), nec</fullName>
+                <default>false</default>
+                <label>1599:	Polynesia (excludes Hawaii), nec</label>
+            </value>
+            <value>
+                <fullName>1601:	Adelie Land (France)</fullName>
+                <default>false</default>
+                <label>1601:	Adelie Land (France)</label>
+            </value>
+            <value>
+                <fullName>1602:	Argentinian Antarctic Territory</fullName>
+                <default>false</default>
+                <label>1602:	Argentinian Antarctic Territory</label>
+            </value>
+            <value>
+                <fullName>1603:	Australian Antarctic Territory</fullName>
+                <default>false</default>
+                <label>1603:	Australian Antarctic Territory</label>
+            </value>
+            <value>
+                <fullName>1604:	British Antarctic Territory</fullName>
+                <default>false</default>
+                <label>1604:	British Antarctic Territory</label>
+            </value>
+            <value>
+                <fullName>1605:	Chilean Antarctic Territory</fullName>
+                <default>false</default>
+                <label>1605:	Chilean Antarctic Territory</label>
+            </value>
+            <value>
+                <fullName>1606:	Queen Maud Land (Norway)</fullName>
+                <default>false</default>
+                <label>1606:	Queen Maud Land (Norway)</label>
+            </value>
+            <value>
+                <fullName>1607:	Ross Dependency (New Zealand)</fullName>
+                <default>false</default>
+                <label>1607:	Ross Dependency (New Zealand)</label>
+            </value>
+            <value>
+                <fullName>2102:	England</fullName>
+                <default>false</default>
+                <label>2102:	England</label>
+            </value>
+            <value>
+                <fullName>2103:	Isle of Man</fullName>
+                <default>false</default>
+                <label>2103:	Isle of Man</label>
+            </value>
+            <value>
+                <fullName>2104:	Northern Ireland</fullName>
+                <default>false</default>
+                <label>2104:	Northern Ireland</label>
+            </value>
+            <value>
+                <fullName>2105:	Scotland</fullName>
+                <default>false</default>
+                <label>2105:	Scotland</label>
+            </value>
+            <value>
+                <fullName>2106:	Wales</fullName>
+                <default>false</default>
+                <label>2106:	Wales</label>
+            </value>
+            <value>
+                <fullName>2107:	Guernsey</fullName>
+                <default>false</default>
+                <label>2107:	Guernsey</label>
+            </value>
+            <value>
+                <fullName>2108:	Jersey</fullName>
+                <default>false</default>
+                <label>2108:	Jersey</label>
+            </value>
+            <value>
+                <fullName>2201:	Ireland</fullName>
+                <default>false</default>
+                <label>2201:	Ireland</label>
+            </value>
+            <value>
+                <fullName>2301:	Austria</fullName>
+                <default>false</default>
+                <label>2301:	Austria</label>
+            </value>
+            <value>
+                <fullName>2302:	Belgium</fullName>
+                <default>false</default>
+                <label>2302:	Belgium</label>
+            </value>
+            <value>
+                <fullName>2303:	France</fullName>
+                <default>false</default>
+                <label>2303:	France</label>
+            </value>
+            <value>
+                <fullName>2304:	Germany</fullName>
+                <default>false</default>
+                <label>2304:	Germany</label>
+            </value>
+            <value>
+                <fullName>2305:	Liechtenstein</fullName>
+                <default>false</default>
+                <label>2305:	Liechtenstein</label>
+            </value>
+            <value>
+                <fullName>2306:	Luxembourg</fullName>
+                <default>false</default>
+                <label>2306:	Luxembourg</label>
+            </value>
+            <value>
+                <fullName>2307:	Monaco</fullName>
+                <default>false</default>
+                <label>2307:	Monaco</label>
+            </value>
+            <value>
+                <fullName>2308:	Netherlands</fullName>
+                <default>false</default>
+                <label>2308:	Netherlands</label>
+            </value>
+            <value>
+                <fullName>2311:	Switzerland</fullName>
+                <default>false</default>
+                <label>2311:	Switzerland</label>
+            </value>
+            <value>
+                <fullName>2401:	Denmark</fullName>
+                <default>false</default>
+                <label>2401:	Denmark</label>
+            </value>
+            <value>
+                <fullName>2402:	Faroe Islands</fullName>
+                <default>false</default>
+                <label>2402:	Faroe Islands</label>
+            </value>
+            <value>
+                <fullName>2403:	Finland</fullName>
+                <default>false</default>
+                <label>2403:	Finland</label>
+            </value>
+            <value>
+                <fullName>2404:	Greenland</fullName>
+                <default>false</default>
+                <label>2404:	Greenland</label>
+            </value>
+            <value>
+                <fullName>2405:	Iceland</fullName>
+                <default>false</default>
+                <label>2405:	Iceland</label>
+            </value>
+            <value>
+                <fullName>2406:	Norway</fullName>
+                <default>false</default>
+                <label>2406:	Norway</label>
+            </value>
+            <value>
+                <fullName>2407:	Sweden</fullName>
+                <default>false</default>
+                <label>2407:	Sweden</label>
+            </value>
+            <value>
+                <fullName>2408:	Aland Islands</fullName>
+                <default>false</default>
+                <label>2408:	Aland Islands</label>
+            </value>
+            <value>
+                <fullName>3101:	Andorra</fullName>
+                <default>false</default>
+                <label>3101:	Andorra</label>
+            </value>
+            <value>
+                <fullName>3102:	Gibraltar</fullName>
+                <default>false</default>
+                <label>3102:	Gibraltar</label>
+            </value>
+            <value>
+                <fullName>3103:	Holy See</fullName>
+                <default>false</default>
+                <label>3103:	Holy See</label>
+            </value>
+            <value>
+                <fullName>3104:	Italy</fullName>
+                <default>false</default>
+                <label>3104:	Italy</label>
+            </value>
+            <value>
+                <fullName>3105:	Malta</fullName>
+                <default>false</default>
+                <label>3105:	Malta</label>
+            </value>
+            <value>
+                <fullName>3106:	Portugal</fullName>
+                <default>false</default>
+                <label>3106:	Portugal</label>
+            </value>
+            <value>
+                <fullName>3107:	San Marino</fullName>
+                <default>false</default>
+                <label>3107:	San Marino</label>
+            </value>
+            <value>
+                <fullName>3108:	Spain</fullName>
+                <default>false</default>
+                <label>3108:	Spain</label>
+            </value>
+            <value>
+                <fullName>3201:	Albania</fullName>
+                <default>false</default>
+                <label>3201:	Albania</label>
+            </value>
+            <value>
+                <fullName>3202:	Bosnia and Herzegovina</fullName>
+                <default>false</default>
+                <label>3202:	Bosnia and Herzegovina</label>
+            </value>
+            <value>
+                <fullName>3203:	Bulgaria</fullName>
+                <default>false</default>
+                <label>3203:	Bulgaria</label>
+            </value>
+            <value>
+                <fullName>3204:	Croatia</fullName>
+                <default>false</default>
+                <label>3204:	Croatia</label>
+            </value>
+            <value>
+                <fullName>3205:	Cyprus</fullName>
+                <default>false</default>
+                <label>3205:	Cyprus</label>
+            </value>
+            <value>
+                <fullName>3206:	The former Yugoslav Republic of Macedonia</fullName>
+                <default>false</default>
+                <label>3206:	The former Yugoslav Republic of Macedonia</label>
+            </value>
+            <value>
+                <fullName>3207:	Greece</fullName>
+                <default>false</default>
+                <label>3207:	Greece</label>
+            </value>
+            <value>
+                <fullName>3208:	Moldova</fullName>
+                <default>false</default>
+                <label>3208:	Moldova</label>
+            </value>
+            <value>
+                <fullName>3211:	Romania</fullName>
+                <default>false</default>
+                <label>3211:	Romania</label>
+            </value>
+            <value>
+                <fullName>3212:	Slovenia</fullName>
+                <default>false</default>
+                <label>3212:	Slovenia</label>
+            </value>
+            <value>
+                <fullName>3214:	Montenegro</fullName>
+                <default>false</default>
+                <label>3214:	Montenegro</label>
+            </value>
+            <value>
+                <fullName>3215:	Serbia</fullName>
+                <default>false</default>
+                <label>3215:	Serbia</label>
+            </value>
+            <value>
+                <fullName>3216:	Kosovo</fullName>
+                <default>false</default>
+                <label>3216:	Kosovo</label>
+            </value>
+            <value>
+                <fullName>3301:	Belarus</fullName>
+                <default>false</default>
+                <label>3301:	Belarus</label>
+            </value>
+            <value>
+                <fullName>3302:	Czech Republic</fullName>
+                <default>false</default>
+                <label>3302:	Czech Republic</label>
+            </value>
+            <value>
+                <fullName>3303:	Estonia</fullName>
+                <default>false</default>
+                <label>3303:	Estonia</label>
+            </value>
+            <value>
+                <fullName>3304:	Hungary</fullName>
+                <default>false</default>
+                <label>3304:	Hungary</label>
+            </value>
+            <value>
+                <fullName>3305:	Latvia</fullName>
+                <default>false</default>
+                <label>3305:	Latvia</label>
+            </value>
+            <value>
+                <fullName>3306:	Lithuania</fullName>
+                <default>false</default>
+                <label>3306:	Lithuania</label>
+            </value>
+            <value>
+                <fullName>3307:	Poland</fullName>
+                <default>false</default>
+                <label>3307:	Poland</label>
+            </value>
+            <value>
+                <fullName>3308:	Russian Federation</fullName>
+                <default>false</default>
+                <label>3308:	Russian Federation</label>
+            </value>
+            <value>
+                <fullName>3311:	Slovakia</fullName>
+                <default>false</default>
+                <label>3311:	Slovakia</label>
+            </value>
+            <value>
+                <fullName>3312:	Ukraine</fullName>
+                <default>false</default>
+                <label>3312:	Ukraine</label>
+            </value>
+            <value>
+                <fullName>4101:	Algeria</fullName>
+                <default>false</default>
+                <label>4101:	Algeria</label>
+            </value>
+            <value>
+                <fullName>4102:	Egypt</fullName>
+                <default>false</default>
+                <label>4102:	Egypt</label>
+            </value>
+            <value>
+                <fullName>4103:	Libya</fullName>
+                <default>false</default>
+                <label>4103:	Libya</label>
+            </value>
+            <value>
+                <fullName>4104:	Morocco</fullName>
+                <default>false</default>
+                <label>4104:	Morocco</label>
+            </value>
+            <value>
+                <fullName>4105:	Sudan</fullName>
+                <default>false</default>
+                <label>4105:	Sudan</label>
+            </value>
+            <value>
+                <fullName>4106:	Tunisia</fullName>
+                <default>false</default>
+                <label>4106:	Tunisia</label>
+            </value>
+            <value>
+                <fullName>4107:	Western Sahara</fullName>
+                <default>false</default>
+                <label>4107:	Western Sahara</label>
+            </value>
+            <value>
+                <fullName>4108:	Spanish North Africa</fullName>
+                <default>false</default>
+                <label>4108:	Spanish North Africa</label>
+            </value>
+            <value>
+                <fullName>4111:	South Sudan</fullName>
+                <default>false</default>
+                <label>4111:	South Sudan</label>
+            </value>
+            <value>
+                <fullName>4201:	Bahrain</fullName>
+                <default>false</default>
+                <label>4201:	Bahrain</label>
+            </value>
+            <value>
+                <fullName>4202:	Gaza Strip and West Bank</fullName>
+                <default>false</default>
+                <label>4202:	Gaza Strip and West Bank</label>
+            </value>
+            <value>
+                <fullName>4203:	Iran</fullName>
+                <default>false</default>
+                <label>4203:	Iran</label>
+            </value>
+            <value>
+                <fullName>4204:	Iraq</fullName>
+                <default>false</default>
+                <label>4204:	Iraq</label>
+            </value>
+            <value>
+                <fullName>4205:	Israel</fullName>
+                <default>false</default>
+                <label>4205:	Israel</label>
+            </value>
+            <value>
+                <fullName>4206:	Jordan</fullName>
+                <default>false</default>
+                <label>4206:	Jordan</label>
+            </value>
+            <value>
+                <fullName>4207:	Kuwait</fullName>
+                <default>false</default>
+                <label>4207:	Kuwait</label>
+            </value>
+            <value>
+                <fullName>4208:	Lebanon</fullName>
+                <default>false</default>
+                <label>4208:	Lebanon</label>
+            </value>
+            <value>
+                <fullName>4211:	Oman</fullName>
+                <default>false</default>
+                <label>4211:	Oman</label>
+            </value>
+            <value>
+                <fullName>4212:	Qatar</fullName>
+                <default>false</default>
+                <label>4212:	Qatar</label>
+            </value>
+            <value>
+                <fullName>4213:	Saudi Arabia</fullName>
+                <default>false</default>
+                <label>4213:	Saudi Arabia</label>
+            </value>
+            <value>
+                <fullName>4214:	Syria</fullName>
+                <default>false</default>
+                <label>4214:	Syria</label>
+            </value>
+            <value>
+                <fullName>4215:	Turkey</fullName>
+                <default>false</default>
+                <label>4215:	Turkey</label>
+            </value>
+            <value>
+                <fullName>4216:	United Arab Emirates</fullName>
+                <default>false</default>
+                <label>4216:	United Arab Emirates</label>
+            </value>
+            <value>
+                <fullName>4217:	Yemen</fullName>
+                <default>false</default>
+                <label>4217:	Yemen</label>
+            </value>
+            <value>
+                <fullName>5101:	Myanmar</fullName>
+                <default>false</default>
+                <label>5101:	Myanmar</label>
+            </value>
+            <value>
+                <fullName>5102:	Cambodia</fullName>
+                <default>false</default>
+                <label>5102:	Cambodia</label>
+            </value>
+            <value>
+                <fullName>5103:	Laos</fullName>
+                <default>false</default>
+                <label>5103:	Laos</label>
+            </value>
+            <value>
+                <fullName>5104:	Thailand</fullName>
+                <default>false</default>
+                <label>5104:	Thailand</label>
+            </value>
+            <value>
+                <fullName>5105:	Vietnam</fullName>
+                <default>false</default>
+                <label>5105:	Vietnam</label>
+            </value>
+            <value>
+                <fullName>5201:	Brunei Darussalam</fullName>
+                <default>false</default>
+                <label>5201:	Brunei Darussalam</label>
+            </value>
+            <value>
+                <fullName>5202:	Indonesia</fullName>
+                <default>false</default>
+                <label>5202:	Indonesia</label>
+            </value>
+            <value>
+                <fullName>5203:	Malaysia</fullName>
+                <default>false</default>
+                <label>5203:	Malaysia</label>
+            </value>
+            <value>
+                <fullName>5204:	Philippines</fullName>
+                <default>false</default>
+                <label>5204:	Philippines</label>
+            </value>
+            <value>
+                <fullName>5205:	Singapore</fullName>
+                <default>false</default>
+                <label>5205:	Singapore</label>
+            </value>
+            <value>
+                <fullName>5206:	Timor-Leste</fullName>
+                <default>false</default>
+                <label>5206:	Timor-Leste</label>
+            </value>
+            <value>
+                <fullName>6101:	China (excludes SARs and Taiwan)</fullName>
+                <default>false</default>
+                <label>6101:	China (excludes SARs and Taiwan)</label>
+            </value>
+            <value>
+                <fullName>6102:	Hong Kong (SAR of China)</fullName>
+                <default>false</default>
+                <label>6102:	Hong Kong (SAR of China)</label>
+            </value>
+            <value>
+                <fullName>6103:	Macau (SAR of China)</fullName>
+                <default>false</default>
+                <label>6103:	Macau (SAR of China)</label>
+            </value>
+            <value>
+                <fullName>6104:	Mongolia</fullName>
+                <default>false</default>
+                <label>6104:	Mongolia</label>
+            </value>
+            <value>
+                <fullName>6105:	Taiwan</fullName>
+                <default>false</default>
+                <label>6105:	Taiwan</label>
+            </value>
+            <value>
+                <fullName>6201:	Japan</fullName>
+                <default>false</default>
+                <label>6201:	Japan</label>
+            </value>
+            <value>
+                <fullName>6202:	Korea, Democratic People’s Republic of (North)</fullName>
+                <default>false</default>
+                <label>6202:	Korea, Democratic People’s Republic of (North)</label>
+            </value>
+            <value>
+                <fullName>6203:	Korea, Republic of (South)</fullName>
+                <default>false</default>
+                <label>6203:	Korea, Republic of (South)</label>
+            </value>
+            <value>
+                <fullName>7101:	Bangladesh</fullName>
+                <default>false</default>
+                <label>7101:	Bangladesh</label>
+            </value>
+            <value>
+                <fullName>7102:	Bhutan</fullName>
+                <default>false</default>
+                <label>7102:	Bhutan</label>
+            </value>
+            <value>
+                <fullName>7103:	India</fullName>
+                <default>false</default>
+                <label>7103:	India</label>
+            </value>
+            <value>
+                <fullName>7104:	Maldives</fullName>
+                <default>false</default>
+                <label>7104:	Maldives</label>
+            </value>
+            <value>
+                <fullName>7105:	Nepal</fullName>
+                <default>false</default>
+                <label>7105:	Nepal</label>
+            </value>
+            <value>
+                <fullName>7106:	Pakistan</fullName>
+                <default>false</default>
+                <label>7106:	Pakistan</label>
+            </value>
+            <value>
+                <fullName>7107:	Sri Lanka</fullName>
+                <default>false</default>
+                <label>7107:	Sri Lanka</label>
+            </value>
+            <value>
+                <fullName>7201:	Afghanistan</fullName>
+                <default>false</default>
+                <label>7201:	Afghanistan</label>
+            </value>
+            <value>
+                <fullName>7202:	Armenia</fullName>
+                <default>false</default>
+                <label>7202:	Armenia</label>
+            </value>
+            <value>
+                <fullName>7203:	Azerbaijan</fullName>
+                <default>false</default>
+                <label>7203:	Azerbaijan</label>
+            </value>
+            <value>
+                <fullName>7204:	Georgia</fullName>
+                <default>false</default>
+                <label>7204:	Georgia</label>
+            </value>
+            <value>
+                <fullName>7205:	Kazakhstan</fullName>
+                <default>false</default>
+                <label>7205:	Kazakhstan</label>
+            </value>
+            <value>
+                <fullName>7206:	Kyrgyzstan</fullName>
+                <default>false</default>
+                <label>7206:	Kyrgyzstan</label>
+            </value>
+            <value>
+                <fullName>7207:	Tajikistan</fullName>
+                <default>false</default>
+                <label>7207:	Tajikistan</label>
+            </value>
+            <value>
+                <fullName>7208:	Turkmenistan</fullName>
+                <default>false</default>
+                <label>7208:	Turkmenistan</label>
+            </value>
+            <value>
+                <fullName>7211:	Uzbekistan</fullName>
+                <default>false</default>
+                <label>7211:	Uzbekistan</label>
+            </value>
+            <value>
+                <fullName>8101:	Bermuda</fullName>
+                <default>false</default>
+                <label>8101:	Bermuda</label>
+            </value>
+            <value>
+                <fullName>8102:	Canada</fullName>
+                <default>false</default>
+                <label>8102:	Canada</label>
+            </value>
+            <value>
+                <fullName>8103:	St Pierre and Miquelon</fullName>
+                <default>false</default>
+                <label>8103:	St Pierre and Miquelon</label>
+            </value>
+            <value>
+                <fullName>8104:	United States of America</fullName>
+                <default>false</default>
+                <label>8104:	United States of America</label>
+            </value>
+            <value>
+                <fullName>8201:	Argentina</fullName>
+                <default>false</default>
+                <label>8201:	Argentina</label>
+            </value>
+            <value>
+                <fullName>8202:	Bolivia</fullName>
+                <default>false</default>
+                <label>8202:	Bolivia</label>
+            </value>
+            <value>
+                <fullName>8203:	Brazil</fullName>
+                <default>false</default>
+                <label>8203:	Brazil</label>
+            </value>
+            <value>
+                <fullName>8204:	Chile</fullName>
+                <default>false</default>
+                <label>8204:	Chile</label>
+            </value>
+            <value>
+                <fullName>8205:	Colombia</fullName>
+                <default>false</default>
+                <label>8205:	Colombia</label>
+            </value>
+            <value>
+                <fullName>8206:	Ecuador</fullName>
+                <default>false</default>
+                <label>8206:	Ecuador</label>
+            </value>
+            <value>
+                <fullName>8207:	Falkland Islands</fullName>
+                <default>false</default>
+                <label>8207:	Falkland Islands</label>
+            </value>
+            <value>
+                <fullName>8208:	French Guiana</fullName>
+                <default>false</default>
+                <label>8208:	French Guiana</label>
+            </value>
+            <value>
+                <fullName>8211:	Guyana</fullName>
+                <default>false</default>
+                <label>8211:	Guyana</label>
+            </value>
+            <value>
+                <fullName>8212:	Paraguay</fullName>
+                <default>false</default>
+                <label>8212:	Paraguay</label>
+            </value>
+            <value>
+                <fullName>8213:	Peru</fullName>
+                <default>false</default>
+                <label>8213:	Peru</label>
+            </value>
+            <value>
+                <fullName>8214:	Suriname</fullName>
+                <default>false</default>
+                <label>8214:	Suriname</label>
+            </value>
+            <value>
+                <fullName>8215:	Uruguay</fullName>
+                <default>false</default>
+                <label>8215:	Uruguay</label>
+            </value>
+            <value>
+                <fullName>8216:	Venezuela</fullName>
+                <default>false</default>
+                <label>8216:	Venezuela</label>
+            </value>
+            <value>
+                <fullName>8299:	South America, nec</fullName>
+                <default>false</default>
+                <label>8299:	South America, nec</label>
+            </value>
+            <value>
+                <fullName>8301:	Belize</fullName>
+                <default>false</default>
+                <label>8301:	Belize</label>
+            </value>
+            <value>
+                <fullName>8302:	Costa Rica</fullName>
+                <default>false</default>
+                <label>8302:	Costa Rica</label>
+            </value>
+            <value>
+                <fullName>8303:	El Salvador</fullName>
+                <default>false</default>
+                <label>8303:	El Salvador</label>
+            </value>
+            <value>
+                <fullName>8304:	Guatemala</fullName>
+                <default>false</default>
+                <label>8304:	Guatemala</label>
+            </value>
+            <value>
+                <fullName>8305:	Honduras</fullName>
+                <default>false</default>
+                <label>8305:	Honduras</label>
+            </value>
+            <value>
+                <fullName>8306:	Mexico</fullName>
+                <default>false</default>
+                <label>8306:	Mexico</label>
+            </value>
+            <value>
+                <fullName>8307:	Nicaragua</fullName>
+                <default>false</default>
+                <label>8307:	Nicaragua</label>
+            </value>
+            <value>
+                <fullName>8308:	Panama</fullName>
+                <default>false</default>
+                <label>8308:	Panama</label>
+            </value>
+            <value>
+                <fullName>8401:	Anguilla</fullName>
+                <default>false</default>
+                <label>8401:	Anguilla</label>
+            </value>
+            <value>
+                <fullName>8402:	Antigua and Barbuda</fullName>
+                <default>false</default>
+                <label>8402:	Antigua and Barbuda</label>
+            </value>
+            <value>
+                <fullName>8403:	Aruba</fullName>
+                <default>false</default>
+                <label>8403:	Aruba</label>
+            </value>
+            <value>
+                <fullName>8404:	Bahamas</fullName>
+                <default>false</default>
+                <label>8404:	Bahamas</label>
+            </value>
+            <value>
+                <fullName>8405:	Barbados</fullName>
+                <default>false</default>
+                <label>8405:	Barbados</label>
+            </value>
+            <value>
+                <fullName>8406:	Cayman Islands</fullName>
+                <default>false</default>
+                <label>8406:	Cayman Islands</label>
+            </value>
+            <value>
+                <fullName>8407:	Cuba</fullName>
+                <default>false</default>
+                <label>8407:	Cuba</label>
+            </value>
+            <value>
+                <fullName>8408:	Dominica</fullName>
+                <default>false</default>
+                <label>8408:	Dominica</label>
+            </value>
+            <value>
+                <fullName>8411:	Dominican Republic</fullName>
+                <default>false</default>
+                <label>8411:	Dominican Republic</label>
+            </value>
+            <value>
+                <fullName>8412:	Grenada</fullName>
+                <default>false</default>
+                <label>8412:	Grenada</label>
+            </value>
+            <value>
+                <fullName>8413:	Guadeloupe</fullName>
+                <default>false</default>
+                <label>8413:	Guadeloupe</label>
+            </value>
+            <value>
+                <fullName>8414:	Haiti</fullName>
+                <default>false</default>
+                <label>8414:	Haiti</label>
+            </value>
+            <value>
+                <fullName>8415:	Jamaica</fullName>
+                <default>false</default>
+                <label>8415:	Jamaica</label>
+            </value>
+            <value>
+                <fullName>8416:	Martinique</fullName>
+                <default>false</default>
+                <label>8416:	Martinique</label>
+            </value>
+            <value>
+                <fullName>8417:	Montserrat</fullName>
+                <default>false</default>
+                <label>8417:	Montserrat</label>
+            </value>
+            <value>
+                <fullName>8421:	Puerto Rico</fullName>
+                <default>false</default>
+                <label>8421:	Puerto Rico</label>
+            </value>
+            <value>
+                <fullName>8422:	St Kitts and Nevis</fullName>
+                <default>false</default>
+                <label>8422:	St Kitts and Nevis</label>
+            </value>
+            <value>
+                <fullName>8423:	St Lucia</fullName>
+                <default>false</default>
+                <label>8423:	St Lucia</label>
+            </value>
+            <value>
+                <fullName>8424:	St Vincent and the Grenadines</fullName>
+                <default>false</default>
+                <label>8424:	St Vincent and the Grenadines</label>
+            </value>
+            <value>
+                <fullName>8425:	Trinidad and Tobago</fullName>
+                <default>false</default>
+                <label>8425:	Trinidad and Tobago</label>
+            </value>
+            <value>
+                <fullName>8426:	Turks and Caicos Islands</fullName>
+                <default>false</default>
+                <label>8426:	Turks and Caicos Islands</label>
+            </value>
+            <value>
+                <fullName>8427:	Virgin Islands, British</fullName>
+                <default>false</default>
+                <label>8427:	Virgin Islands, British</label>
+            </value>
+            <value>
+                <fullName>8428:	Virgin Islands, United States</fullName>
+                <default>false</default>
+                <label>8428:	Virgin Islands, United States</label>
+            </value>
+            <value>
+                <fullName>8431:	St Barthelemy</fullName>
+                <default>false</default>
+                <label>8431:	St Barthelemy</label>
+            </value>
+            <value>
+                <fullName>8432:	St Martin (French part)</fullName>
+                <default>false</default>
+                <label>8432:	St Martin (French part)</label>
+            </value>
+            <value>
+                <fullName>8433:	Bonaire, Sint Eustatius and Saba</fullName>
+                <default>false</default>
+                <label>8433:	Bonaire, Sint Eustatius and Saba</label>
+            </value>
+            <value>
+                <fullName>8434:	Curacao</fullName>
+                <default>false</default>
+                <label>8434:	Curacao</label>
+            </value>
+            <value>
+                <fullName>8435:	Sint Maarten (Dutch part)</fullName>
+                <default>false</default>
+                <label>8435:	Sint Maarten (Dutch part)</label>
+            </value>
+            <value>
+                <fullName>9101:	Benin</fullName>
+                <default>false</default>
+                <label>9101:	Benin</label>
+            </value>
+            <value>
+                <fullName>9102:	Burkina Faso</fullName>
+                <default>false</default>
+                <label>9102:	Burkina Faso</label>
+            </value>
+            <value>
+                <fullName>9103:	Cameroon</fullName>
+                <default>false</default>
+                <label>9103:	Cameroon</label>
+            </value>
+            <value>
+                <fullName>9104:	Cabo Verde</fullName>
+                <default>false</default>
+                <label>9104:	Cabo Verde</label>
+            </value>
+            <value>
+                <fullName>9105:	Central African Republic</fullName>
+                <default>false</default>
+                <label>9105:	Central African Republic</label>
+            </value>
+            <value>
+                <fullName>9106:	Chad</fullName>
+                <default>false</default>
+                <label>9106:	Chad</label>
+            </value>
+            <value>
+                <fullName>9107:	Congo, Republic of</fullName>
+                <default>false</default>
+                <label>9107:	Congo, Republic of</label>
+            </value>
+            <value>
+                <fullName>9108:	Congo, Democratic Republic of</fullName>
+                <default>false</default>
+                <label>9108:	Congo, Democratic Republic of</label>
+            </value>
+            <value>
+                <fullName>9111:	Cote d’Ivoire</fullName>
+                <default>false</default>
+                <label>9111:	Cote d’Ivoire</label>
+            </value>
+            <value>
+                <fullName>9112:	Equatorial Guinea</fullName>
+                <default>false</default>
+                <label>9112:	Equatorial Guinea</label>
+            </value>
+            <value>
+                <fullName>9113:	Gabon</fullName>
+                <default>false</default>
+                <label>9113:	Gabon</label>
+            </value>
+            <value>
+                <fullName>9114:	Gambia</fullName>
+                <default>false</default>
+                <label>9114:	Gambia</label>
+            </value>
+            <value>
+                <fullName>9115:	Ghana</fullName>
+                <default>false</default>
+                <label>9115:	Ghana</label>
+            </value>
+            <value>
+                <fullName>9116:	Guinea</fullName>
+                <default>false</default>
+                <label>9116:	Guinea</label>
+            </value>
+            <value>
+                <fullName>9117:	Guinea-Bissau</fullName>
+                <default>false</default>
+                <label>9117:	Guinea-Bissau</label>
+            </value>
+            <value>
+                <fullName>9118:	Liberia</fullName>
+                <default>false</default>
+                <label>9118:	Liberia</label>
+            </value>
+            <value>
+                <fullName>9121:	Mali</fullName>
+                <default>false</default>
+                <label>9121:	Mali</label>
+            </value>
+            <value>
+                <fullName>9122:	Mauritania</fullName>
+                <default>false</default>
+                <label>9122:	Mauritania</label>
+            </value>
+            <value>
+                <fullName>9123:	Niger</fullName>
+                <default>false</default>
+                <label>9123:	Niger</label>
+            </value>
+            <value>
+                <fullName>9124:	Nigeria</fullName>
+                <default>false</default>
+                <label>9124:	Nigeria</label>
+            </value>
+            <value>
+                <fullName>9125:	Sao Tome and Principe</fullName>
+                <default>false</default>
+                <label>9125:	Sao Tome and Principe</label>
+            </value>
+            <value>
+                <fullName>9126:	Senegal</fullName>
+                <default>false</default>
+                <label>9126:	Senegal</label>
+            </value>
+            <value>
+                <fullName>9127:	Sierra Leone</fullName>
+                <default>false</default>
+                <label>9127:	Sierra Leone</label>
+            </value>
+            <value>
+                <fullName>9128:	Togo</fullName>
+                <default>false</default>
+                <label>9128:	Togo</label>
+            </value>
+            <value>
+                <fullName>9201:	Angola</fullName>
+                <default>false</default>
+                <label>9201:	Angola</label>
+            </value>
+            <value>
+                <fullName>9202:	Botswana</fullName>
+                <default>false</default>
+                <label>9202:	Botswana</label>
+            </value>
+            <value>
+                <fullName>9203:	Burundi</fullName>
+                <default>false</default>
+                <label>9203:	Burundi</label>
+            </value>
+            <value>
+                <fullName>9204:	Comoros</fullName>
+                <default>false</default>
+                <label>9204:	Comoros</label>
+            </value>
+            <value>
+                <fullName>9205:	Djibouti</fullName>
+                <default>false</default>
+                <label>9205:	Djibouti</label>
+            </value>
+            <value>
+                <fullName>9206:	Eritrea</fullName>
+                <default>false</default>
+                <label>9206:	Eritrea</label>
+            </value>
+            <value>
+                <fullName>9207:	Ethiopia</fullName>
+                <default>false</default>
+                <label>9207:	Ethiopia</label>
+            </value>
+            <value>
+                <fullName>9208:	Kenya</fullName>
+                <default>false</default>
+                <label>9208:	Kenya</label>
+            </value>
+            <value>
+                <fullName>9211:	Lesotho</fullName>
+                <default>false</default>
+                <label>9211:	Lesotho</label>
+            </value>
+            <value>
+                <fullName>9212:	Madagascar</fullName>
+                <default>false</default>
+                <label>9212:	Madagascar</label>
+            </value>
+            <value>
+                <fullName>9213:	Malawi</fullName>
+                <default>false</default>
+                <label>9213:	Malawi</label>
+            </value>
+            <value>
+                <fullName>9214:	Mauritius</fullName>
+                <default>false</default>
+                <label>9214:	Mauritius</label>
+            </value>
+            <value>
+                <fullName>9215:	Mayotte</fullName>
+                <default>false</default>
+                <label>9215:	Mayotte</label>
+            </value>
+            <value>
+                <fullName>9216:	Mozambique</fullName>
+                <default>false</default>
+                <label>9216:	Mozambique</label>
+            </value>
+            <value>
+                <fullName>9217:	Namibia</fullName>
+                <default>false</default>
+                <label>9217:	Namibia</label>
+            </value>
+            <value>
+                <fullName>9218:	Reunion</fullName>
+                <default>false</default>
+                <label>9218:	Reunion</label>
+            </value>
+            <value>
+                <fullName>9221:	Rwanda</fullName>
+                <default>false</default>
+                <label>9221:	Rwanda</label>
+            </value>
+            <value>
+                <fullName>9222:	St Helena</fullName>
+                <default>false</default>
+                <label>9222:	St Helena</label>
+            </value>
+            <value>
+                <fullName>9223:	Seychelles</fullName>
+                <default>false</default>
+                <label>9223:	Seychelles</label>
+            </value>
+            <value>
+                <fullName>9224:	Somalia</fullName>
+                <default>false</default>
+                <label>9224:	Somalia</label>
+            </value>
+            <value>
+                <fullName>9225:	South Africa</fullName>
+                <default>false</default>
+                <label>9225:	South Africa</label>
+            </value>
+            <value>
+                <fullName>9226:	Swaziland</fullName>
+                <default>false</default>
+                <label>9226:	Swaziland</label>
+            </value>
+            <value>
+                <fullName>9227:	Tanzania</fullName>
+                <default>false</default>
+                <label>9227:	Tanzania</label>
+            </value>
+            <value>
+                <fullName>9228:	Uganda</fullName>
+                <default>false</default>
+                <label>9228:	Uganda</label>
+            </value>
+            <value>
+                <fullName>9231:	Zambia</fullName>
+                <default>false</default>
+                <label>9231:	Zambia</label>
+            </value>
+            <value>
+                <fullName>9232:	Zimbabwe</fullName>
+                <default>false</default>
+                <label>9232:	Zimbabwe</label>
+            </value>
+            <value>
+                <fullName>9299:	Southern and East Africa, nec</fullName>
+                <default>false</default>
+                <label>9299:	Southern and East Africa, nec</label>
+            </value>
+            <value>
+                <fullName>9999:	Unknown</fullName>
+                <default>false</default>
+                <label>9999:	Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

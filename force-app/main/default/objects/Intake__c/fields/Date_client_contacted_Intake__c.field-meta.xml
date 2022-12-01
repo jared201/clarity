@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_client_contacted_Intake__c</fullName>
+    <description>The date on which the client first contacted the intake service</description>
+    <externalId>false</externalId>
+    <label>Date client contacted Intake</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

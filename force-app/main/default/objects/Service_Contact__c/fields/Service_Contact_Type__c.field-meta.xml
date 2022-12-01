@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Contact Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	No contact took place</fullName>
+                <default>false</default>
+                <label>0:	No contact took place</label>
+            </value>
+            <value>
+                <fullName>1:	Assessment</fullName>
+                <default>false</default>
+                <label>1:	Assessment</label>
+            </value>
+            <value>
+                <fullName>2:	Structured psychological intervention</fullName>
+                <default>false</default>
+                <label>2:	Structured psychological intervention</label>
+            </value>
+            <value>
+                <fullName>3:	Other psychological intervention</fullName>
+                <default>false</default>
+                <label>3:	Other psychological intervention</label>
+            </value>
+            <value>
+                <fullName>4:	Clinical care coordination/liaison</fullName>
+                <default>false</default>
+                <label>4:	Clinical care coordination/liaison</label>
+            </value>
+            <value>
+                <fullName>5:	Clinical nursing services</fullName>
+                <default>false</default>
+                <label>5:	Clinical nursing services</label>
+            </value>
+            <value>
+                <fullName>6:	Child or youth specific assistance NEC</fullName>
+                <default>false</default>
+                <label>6:	Child or youth specific assistance NEC</label>
+            </value>
+            <value>
+                <fullName>7:	Suicide prevention specific assistance NEC</fullName>
+                <default>false</default>
+                <label>7:	Suicide prevention specific assistance NEC</label>
+            </value>
+            <value>
+                <fullName>8:	Cultural specific assistance NEC</fullName>
+                <default>false</default>
+                <label>8:	Cultural specific assistance NEC</label>
+            </value>
+            <value>
+                <fullName>9:	Psychosocial support</fullName>
+                <default>false</default>
+                <label>9:	Psychosocial support</label>
+            </value>
+            <value>
+                <fullName>98:	ATAPS</fullName>
+                <default>false</default>
+                <label>98:	ATAPS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
