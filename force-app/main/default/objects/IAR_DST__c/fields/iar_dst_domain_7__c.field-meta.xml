@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iar_dst_domain_7__c</fullName>
+    <externalId>false</externalId>
+    <label>IAR-DST - Domain 7 - Family and Other Su</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	Highly supported</fullName>
+                <default>false</default>
+                <label>0:	Highly supported</label>
+            </value>
+            <value>
+                <fullName>1:	Well supported</fullName>
+                <default>false</default>
+                <label>1:	Well supported</label>
+            </value>
+            <value>
+                <fullName>2:	Limited supports</fullName>
+                <default>false</default>
+                <label>2:	Limited supports</label>
+            </value>
+            <value>
+                <fullName>3:	Minimal supports</fullName>
+                <default>false</default>
+                <label>3:	Minimal supports</label>
+            </value>
+            <value>
+                <fullName>4:	No supports</fullName>
+                <default>false</default>
+                <label>4:	No supports</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iar_dst_domain_4__c</fullName>
+    <externalId>false</externalId>
+    <label>IAR-DST - Domain 3 - Functioning (Primar</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	No problem in this domain</fullName>
+                <default>false</default>
+                <label>0:	No problem in this domain</label>
+            </value>
+            <value>
+                <fullName>1:	Minor impact</fullName>
+                <default>false</default>
+                <label>1:	Minor impact</label>
+            </value>
+            <value>
+                <fullName>2:	Moderate impact</fullName>
+                <default>false</default>
+                <label>2:	Moderate impact</label>
+            </value>
+            <value>
+                <fullName>3:	Severe impact</fullName>
+                <default>false</default>
+                <label>3:	Severe impact</label>
+            </value>
+            <value>
+                <fullName>4:	Very severe impact</fullName>
+                <default>false</default>
+                <label>4:	Very severe impact</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

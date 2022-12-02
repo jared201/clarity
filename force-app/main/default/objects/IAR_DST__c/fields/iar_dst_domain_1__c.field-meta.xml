@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iar_dst_domain_1__c</fullName>
+    <externalId>false</externalId>
+    <label>IAR-DST - Domain 1 - Symptom Severity an</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	No problem in this domain</fullName>
+                <default>false</default>
+                <label>0:	No problem in this domain</label>
+            </value>
+            <value>
+                <fullName>1:	Mild or sub diagnostic</fullName>
+                <default>false</default>
+                <label>1:	Mild or sub diagnostic</label>
+            </value>
+            <value>
+                <fullName>2:	Moderate</fullName>
+                <default>false</default>
+                <label>2:	Moderate</label>
+            </value>
+            <value>
+                <fullName>3:	Severe</fullName>
+                <default>false</default>
+                <label>3:	Severe</label>
+            </value>
+            <value>
+                <fullName>4:	Very severe</fullName>
+                <default>false</default>
+                <label>4:	Very severe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
