@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iar_dst_domain_5__c</fullName>
+    <externalId>false</externalId>
+    <label>IAR-DST - Domain 5 - Treatment and Recov</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	No prior treatment history</fullName>
+                <default>false</default>
+                <label>0:	No prior treatment history</label>
+            </value>
+            <value>
+                <fullName>1:	Full recovery with previous treatment</fullName>
+                <default>false</default>
+                <label>1:	Full recovery with previous treatment</label>
+            </value>
+            <value>
+                <fullName>2:	Moderate recovery with previous treatment</fullName>
+                <default>false</default>
+                <label>2:	Moderate recovery with previous treatment</label>
+            </value>
+            <value>
+                <fullName>3:	Minor recovery with previous treatment</fullName>
+                <default>false</default>
+                <label>3:	Minor recovery with previous treatment</label>
+            </value>
+            <value>
+                <fullName>4:	Negligible recovery with previous treatment</fullName>
+                <default>false</default>
+                <label>4:	Negligible recovery with previous treatment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

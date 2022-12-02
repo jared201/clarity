@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iar_dst_recommended_level_of_care__c</fullName>
+    <externalId>false</externalId>
+    <label>IAR-DST - Recommended Level of Care</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	Level 1 - Self Management</fullName>
+                <default>false</default>
+                <label>1:	Level 1 - Self Management</label>
+            </value>
+            <value>
+                <fullName>1+:	Level 1 or above - Review assessment on Contextual Domains to determine most appropriate placement</fullName>
+                <default>false</default>
+                <label>1+:	Level 1 or above - Review assessment on Contextual Domains to determine most appropriate placement</label>
+            </value>
+            <value>
+                <fullName>2:	Level 2 - Low Intensity Services</fullName>
+                <default>false</default>
+                <label>2:	Level 2 - Low Intensity Services</label>
+            </value>
+            <value>
+                <fullName>2+:	Level 2 or above - Review assessment on Contextual Domains to determine most appropriate placement</fullName>
+                <default>false</default>
+                <label>2+:	Level 2 or above - Review assessment on Contextual Domains to determine most appropriate placement</label>
+            </value>
+            <value>
+                <fullName>3:	Level 3 - Moderate Intensity Services</fullName>
+                <default>false</default>
+                <label>3:	Level 3 - Moderate Intensity Services</label>
+            </value>
+            <value>
+                <fullName>3+:	Level 3 or above - Review assessment on Contextual Domains to determine most appropriate placement</fullName>
+                <default>false</default>
+                <label>3+:	Level 3 or above - Review assessment on Contextual Domains to determine most appropriate placement</label>
+            </value>
+            <value>
+                <fullName>4:	Level 4 - High Intensity Services</fullName>
+                <default>false</default>
+                <label>4:	Level 4 - High Intensity Services</label>
+            </value>
+            <value>
+                <fullName>4+:	Level 4 or above - Review assessment on Contextual Domains to determine most appropriate placement</fullName>
+                <default>false</default>
+                <label>4+:	Level 4 or above - Review assessment on Contextual Domains to determine most appropriate placement</label>
+            </value>
+            <value>
+                <fullName>5:	Level 5 - Acute and Specialist Community Mental Health Services</fullName>
+                <default>false</default>
+                <label>5:	Level 5 - Acute and Specialist Community Mental Health Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
