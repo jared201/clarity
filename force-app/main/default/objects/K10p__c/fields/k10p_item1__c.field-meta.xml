@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>k10p_item1__c</fullName>
+    <externalId>false</externalId>
+    <label>K10+ - Question 1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1:	None of the time</fullName>
+                <default>false</default>
+                <label>1:	None of the time</label>
+            </value>
+            <value>
+                <fullName>2:	A little of the time</fullName>
+                <default>false</default>
+                <label>2:	A little of the time</label>
+            </value>
+            <value>
+                <fullName>3:	Some of the time</fullName>
+                <default>false</default>
+                <label>3:	Some of the time</label>
+            </value>
+            <value>
+                <fullName>4:	Most of the time</fullName>
+                <default>false</default>
+                <label>4:	Most of the time</label>
+            </value>
+            <value>
+                <fullName>5:	All of the time</fullName>
+                <default>false</default>
+                <label>5:	All of the time</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated / Missing</fullName>
+                <default>false</default>
+                <label>9:	Not stated / Missing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
