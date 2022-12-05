@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sdq_version__c</fullName>
+    <externalId>false</externalId>
+    <label>SDQ Collection Occasion - Version</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PC101:	Parent Report Measure 4-10 yrs, Baseline version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>PC101:	Parent Report Measure 4-10 yrs, Baseline version, Australian Version 1</label>
+            </value>
+            <value>
+                <fullName>PC201:	Parent Report Measure 4-10 yrs, Follow Up version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>PC201:	Parent Report Measure 4-10 yrs, Follow Up version, Australian Version 1</label>
+            </value>
+            <value>
+                <fullName>PY101:	Parent Report Measure 11-17 yrs, Baseline version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>PY101:	Parent Report Measure 11-17 yrs, Baseline version, Australian Version 1</label>
+            </value>
+            <value>
+                <fullName>PY201:	Parent Report Measure 11-17 yrs, Follow Up version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>PY201:	Parent Report Measure 11-17 yrs, Follow Up version, Australian Version 1</label>
+            </value>
+            <value>
+                <fullName>YR101:	Self report Version, 11-17 years, Baseline version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>YR101:	Self report Version, 11-17 years, Baseline version, Australian Version 1</label>
+            </value>
+            <value>
+                <fullName>YR201:	Self report Version, 11-17 years, Follow Up version, Australian Version 1</fullName>
+                <default>false</default>
+                <label>YR201:	Self report Version, 11-17 years, Follow Up version, Australian Version 1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
