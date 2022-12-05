@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sdq_item32__c</fullName>
+    <externalId>false</externalId>
+    <label>SDQ - Question 32</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	Not at all</fullName>
+                <default>false</default>
+                <label>0:	Not at all</label>
+            </value>
+            <value>
+                <fullName>1:	A little</fullName>
+                <default>false</default>
+                <label>1:	A little</label>
+            </value>
+            <value>
+                <fullName>2:	A medium amount</fullName>
+                <default>false</default>
+                <label>2:	A medium amount</label>
+            </value>
+            <value>
+                <fullName>3:	A great deal</fullName>
+                <default>false</default>
+                <label>3:	A great deal</label>
+            </value>
+            <value>
+                <fullName>7:	Unable to rate (insufficient information)</fullName>
+                <default>false</default>
+                <label>7:	Unable to rate (insufficient information)</label>
+            </value>
+            <value>
+                <fullName>8:	Not applicable (collection not required - item not included in the version collected, or SDQ Item 26 = 0)</fullName>
+                <default>false</default>
+                <label>8:	Not applicable (collection not required - item not included in the version collected, or SDQ Item 26 = 0)</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated / Missing</fullName>
+                <default>false</default>
+                <label>9:	Not stated / Missing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

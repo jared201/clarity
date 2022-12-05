@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sdq_item26__c</fullName>
+    <externalId>false</externalId>
+    <label>SDQ - Question 26</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0:	No</fullName>
+                <default>false</default>
+                <label>0:	No</label>
+            </value>
+            <value>
+                <fullName>1:	Yes - minor difficulties</fullName>
+                <default>false</default>
+                <label>1:	Yes - minor difficulties</label>
+            </value>
+            <value>
+                <fullName>2:	Yes - definite difficulties</fullName>
+                <default>false</default>
+                <label>2:	Yes - definite difficulties</label>
+            </value>
+            <value>
+                <fullName>3:	Yes - severe difficulties</fullName>
+                <default>false</default>
+                <label>3:	Yes - severe difficulties</label>
+            </value>
+            <value>
+                <fullName>7:	Unable to rate (insufficient information)</fullName>
+                <default>false</default>
+                <label>7:	Unable to rate (insufficient information)</label>
+            </value>
+            <value>
+                <fullName>9:	Not stated / Missing</fullName>
+                <default>false</default>
+                <label>9:	Not stated / Missing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
