@@ -15,9 +15,11 @@ public with sharing class ClientController {
      * This is just simple save action.
      * @return true if action is successful.
      */
-    public Client__c saveRecord(Client__c clientRecord){
+    public List<Client__c> saveRecord(Client__c clientRecord){
                 
         Client__c client = clientRecord;
+        List<Client__c> clients = new List<Client__c>();
+        clients.add(client);
 
         try {
             insert client;            
@@ -25,7 +27,7 @@ public with sharing class ClientController {
             System.debug('An unexpected error has occurred: ' + e.getMessage());
         }
         
-        return client;
+        return clients;
             
     }
     /**
