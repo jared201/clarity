@@ -2,11 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Episode_Key__c</fullName>
     <description>This is a number or code assigned to each episode. The Episode Key is unique and stable for each episode at the level of the Provider Organisation.</description>
+    <displayFormat>EP-{0000}</displayFormat>
     <externalId>false</externalId>
     <label>Episode Key</label>
-    <length>50</length>
-    <required>true</required>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>AutoNumber</type>
 </CustomField>
