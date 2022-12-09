@@ -70,6 +70,9 @@ public with sharing class EpisodeController {
 
     }
 
-
+    public List<Episode__c> getEpisodeList (){
+        Episode__c[] episodes = [SELECT Id FROM Episode__c WITH SECURITY_ENFORCED];
+        return episodes;
+    }
 
 }
